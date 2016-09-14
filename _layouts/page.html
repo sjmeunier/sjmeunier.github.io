@@ -12,12 +12,18 @@ projects: 'projects.html'
     <a class="general-button" href="{{ site.baseurl }}{{ page.projects }}">Projects</a>
     <a class="general-button" href="{{ site.baseurl }}{{ page.astronomy }}">Astronomy</a>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+	<div class="main-header-content inner">
+		<h1 class="page-title">{{ site.name }}</h1>
+		<h2 class="page-description">
+			{% if site.description %} {{ site.description }}. {% endif %}
+		</h2>
+	</div>	
 </nav>
 
 
 <main class="content" role="main">
     <article class="post">
-        <!-- <header class="post-header">
+        <header class="post-header">
             <a id="blog-logo" href="{{site.baseurl}}">
                 {% if site.logo %}
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
@@ -25,7 +31,7 @@ projects: 'projects.html'
                     <span class="blog-title">{{ site.name }}</span>
                 {%endif%}
             </a>
-        </header> -->
+        </header> 
 
         <h1 class="post-title">{{ page.title }}</h1>
 
