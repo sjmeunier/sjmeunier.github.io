@@ -3,7 +3,7 @@ description: Blogging about software development, astronomy, genealogy and more
 meta_description: "Serge's World, Blogging about software development astronomy genealogy and more"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
