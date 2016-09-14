@@ -728,6 +728,7 @@ margin on the iframe, cause it breaks stuff. */
 
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
+	text-align: center;
 }
 
 .post-title a {
@@ -751,6 +752,7 @@ body:not(.post-template) .post-title {
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
+	text-align: center;
 }
 
 .author-thumb {
