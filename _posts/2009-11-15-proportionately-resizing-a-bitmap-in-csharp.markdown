@@ -5,7 +5,7 @@ date:   2010-11-15 00:00:00
 categories: Programming
 ---
 
-Resizing a bitmap and keeping the sides proportions intact – in other words keeping the same aspect ratio, we need to specify a maximum width and maximum height.
+Resizing a bitmap and keeping the sides proportions intact - in other words keeping the same aspect ratio, we need to specify a maximum width and maximum height.
 
 The first thing we do is get the longest and shortest dimensions and divide the one by the other. We then have the ratio of the two sides which we will use further on in the calculations. 
 
