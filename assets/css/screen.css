@@ -707,6 +707,10 @@ margin on the iframe, cause it breaks stuff. */
     hyphens: auto;
 }
 
+.post.narrow {
+	max-width: 710px;
+}
+
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 .post:after {
