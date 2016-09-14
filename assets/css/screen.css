@@ -484,8 +484,8 @@ margin on the iframe, cause it breaks stuff. */
 
 
 .main-header-content {
-	padding-top: 3.5em;
-    padding-bottom: 1em;
+	margin-top: 3.5em;
+    margin-bottom: 1em;
 }
 
 .main-header .inner {
@@ -699,6 +699,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width: 80%;
+	max-width: 1300px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -1314,7 +1315,6 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 900px) {
 
     .main-nav {
-        padding: 15px;
     }
 
     blockquote {
@@ -1326,16 +1326,12 @@ body:not(.post-template) .post-title {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
-        height: 60%;
-        padding: 15% 0;
     }
 
     .scroll-down,
     .home-template .main-header:after { display: none; }
 
     .archive-template .main-header {
-        min-height: 180px;
         padding: 10% 0;
     }
 
@@ -1438,18 +1434,14 @@ body:not(.post-template) .post-title {
 @media only screen and (max-width: 500px) {
 
     .main-header {
-        margin-bottom: 15px;
-        height: 40%;
     }
 
     .no-cover.main-header {
-        height: 30%;
+
     }
 
     .archive-template .main-header {
-        max-height: 20%;
-        min-height: 160px;
-        padding: 10% 0;
+
     }
 
     .main-nav {
@@ -1467,6 +1459,7 @@ body:not(.post-template) .post-title {
     }
 
     .back-button,
+    .general-button,
     .subscribe-button {
         height: 44px;
         line-height: 41px;
@@ -1475,13 +1468,15 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
+    .genera,-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
     }
 
-    .back-button {
+    .back-button,
+	.general-button	{
         padding: 0 15px 0 10px;
     }
 
