@@ -764,6 +764,10 @@ body:not(.post-template) .post-title.list {
 	text-align: right;
 }
 
+.post-meta.list {
+	text-align: left;
+}
+
 .author-thumb {
     width: 24px;
     height: 24px;
