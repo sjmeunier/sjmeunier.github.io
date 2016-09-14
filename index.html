@@ -19,21 +19,22 @@ projects: 'projects.html'
 		<a class="general-button" href="{{ site.baseurl }}{{ page.astronomy }}">Astronomy</a>
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-            </h2>
-        </div>
-    </div>
+	<div class="main-header-content inner">
+		<h1 class="page-title">{{ site.name }}</h1>
+		<h2 class="page-description">
+			{% if site.description %} {{ site.description }}. {% endif %}
+		</h2>
+	</div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
 
 <main id="content" class="content" role="main">
 
-
+	<p>
+		I'm a software developer, working as a .NET web development. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding. 
+	</p>
+	<hr/>
     <div class="extra-pagination inner">
         {% include pagination.html %}
     </div>
@@ -64,25 +65,4 @@ projects: 'projects.html'
     {% endfor %}
 
     {% include pagination.html %}
-	<footer class="post-footer">
-		<!-- If we want to display author's name and bio -->
-		{% if site.author %}
-			<figure class="author-image">
-				<a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
-				<span class="hidden">{{site.author}}'s Picture</span></a>
-			</figure>
-			<section class="author">
-				<!-- Author Name -->
-				<h4> {{ site.author }} </h4>
-				<!-- Author Bio -->
-				<p>
-					I'm a software developer, working as a .NET web development. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding. 
-				</p>
-			</section>
-		{% endif %}
-
-		<!-- Share links section -->
-		{% include share.html %}
-
-	</footer>
 </main>
