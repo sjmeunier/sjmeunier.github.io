@@ -1,0 +1,16 @@
+name: Serge's World
+description: Blogging about software development, astronomy, genealogy and more
+meta_description: "Serge's World, Blogging about software development astronomy genealogy and more"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://sjmeunier.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://sjmeunier.github.io'
+author:         'Serge Meunier'
