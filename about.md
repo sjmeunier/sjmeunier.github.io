@@ -3,7 +3,7 @@ layout: page
 title: About me 
 ---
 
-![profile](https://sjmeunier.igithub.io/assets/images/profile.png)
+![profile](/assets/images/profile.png)
 I'm a software developer, working as a .NET web development. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. 
 
 I am also very passionate about astronomy and genealogy when not thinking about coding. 
