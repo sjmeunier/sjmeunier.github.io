@@ -5,21 +5,7 @@ archive: false
 post_class: post-template
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
-		<a class="general-button" href="{{ site.baseurl }}about.html">About</a>
-		<a class="general-button" href="{{ site.baseurl }}projects.html">Projects</a>
-		<a class="general-button" href="{{ site.baseurl }}astronomy.html">Astronomy</a>
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
-    </nav>
-	<div class="main-header-content inner">
-		<h1 class="page-title">{{ site.name }}</h1>
-		<h2 class="page-description">
-			{% if site.description %} {{ site.description }}. {% endif %}
-		</h2>
-	</div>	
-</header>
+{% include header.html %}
 
 <main class="content" role="main">
 
@@ -81,7 +67,7 @@ post_class: post-template
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        I'm a software developer, working as a .NET web development. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding. 
+                        I'm a software developer, working as a .NET web developer. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding. 
                     </p>
                 </section>
             {% endif %}

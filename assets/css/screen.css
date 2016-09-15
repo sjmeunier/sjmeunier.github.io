@@ -575,7 +575,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .back-button,
-.general-button {
+.general-button,
+.subscribe-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -600,24 +601,6 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 8px;
 }
 
-.subscribe-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    float: right;
-    height: 38px;
-    padding: 0 20px;
-    border: transparent 1px solid;
-    color: #9EABB3;
-    text-align: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 35px;
-    white-space: nowrap;
-    border-radius: 3px;
-    transition: all ease 0.3s;
-}
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
@@ -1463,13 +1446,12 @@ body:not(.post-template) .post-title.list {
     }
 
     .back-button,
-	.general-button	{
+	.general-button,
+	.subscribe-button	{
         padding: 0 15px 0 10px;
     }
 
-    .subscribe-button {
-        padding: 0 12px;
-    }
+
 
     .main-nav.overlay a:hover {
         color: #fff;
