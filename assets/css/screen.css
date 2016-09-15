@@ -601,8 +601,9 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 8px;
 }
 
-.nav_container {
+.nav-container {
 	width: 100%;
+	position: relative;
 	text-align: center;
 }
 .subscribe-button:before {
