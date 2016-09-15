@@ -2,7 +2,8 @@
 layout: post
 title:  "PC-GPE on the Web"
 date:   2010-01-15 00:00:00
-categories: Gaming,Programming
+categories: Programming
+tags: gaming programming
 ---
 
 The [PC-GPE](http://www.qzx.com/pc-gpe/), or to give it its full name, the PC Game Programmer's Encyclopedia is ancient. I can remember treasuring my copy of it I had way back in high school, and I had thought that it had disappeared.

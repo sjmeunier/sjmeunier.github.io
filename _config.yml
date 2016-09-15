@@ -5,7 +5,8 @@ meta_description: "Serge's World, Blogging about software development astronomy 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
+paginate: 10
+excerpt_separator: <!--more-->
 baseurl: /
 domain_name: 'http://sjmeunier.github.io'
 google_analytics: 'UA-XXXXXXXX-X'

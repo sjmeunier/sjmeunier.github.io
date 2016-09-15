@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "Proportionately Resizing A Bitmap in C&#35;"
-date:   2010-11-15 00:00:00
+date:   2009-11-15 00:00:00
 categories: Programming
+tags:
+-C&#35;
+-programming
+-tutorials
 ---
 
 Resizing a bitmap and keeping the sides proportions intact - in other words keeping the same aspect ratio, we need to specify a maximum width and maximum height.
@@ -12,6 +16,7 @@ The first thing we do is get the longest and shortest dimensions and divide the 
 Then, finding the new width and height, we set the new width to the maximum width, and the new height to the maximum height divided by the ratio of the sides. If however, the height was the largest side, we then set the new height to the maximum height, and the width to maximum width divided by the ratio of the sides.
 
 Once we have done this, we can then create a new Bitmap from the old Bitmap, using the new width and height we have calculated and then return the Bitmap as the last thing we do.
+<!--more-->
 
 {% highlight csharp %}
 public static Bitmap ProportionallyResizeBitmap(Bitmap sourceBitmap, int maxWidth, int maxHeight)
@@ -44,3 +49,5 @@ public static Bitmap ProportionallyResizeBitmap(Bitmap sourceBitmap, int maxWidt
 	return resizedBitmap;
 }
 {% endhighlight %}
+
+_Originally posted on my old blog, Centre of the Universe, on 15 Nov 2009_

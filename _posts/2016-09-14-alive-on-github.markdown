@@ -3,6 +3,7 @@ layout: post
 title:  "Alive on GitHub!"
 date:   2016-09-14 21:00:00
 categories: General
+tags: 
 ---
 
 So, after several years of letting my previous blog die, I am reviving it here on GitHub Pages. 

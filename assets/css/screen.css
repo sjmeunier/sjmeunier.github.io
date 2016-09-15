@@ -1,9 +1,9 @@
+
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
 
 /*
-
     0.  Normalize
     1.  Icons
     2.  General
@@ -17,7 +17,6 @@
     10. Media Queries (Tablet)
     11. Media Queries (Mobile)
     12. Animations
-
 */
 
 /* ==========================================================================
@@ -98,6 +97,14 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
+.shadow-image {
+	box-shadow: 6px 6px 10px #666666;
+}
+
+.shadow-image.centered {
+	margin: 0 auto;
+    display: block;
+}
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
@@ -202,7 +209,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", serif;
 }
 
 h1 {
@@ -602,9 +609,10 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .nav-container {
-	width: 100%;
 	position: relative;
 	text-align: center;
+	margin: 0 auto;
+    display: block;
 }
 .subscribe-button:before {
     font-size: 9px;
@@ -725,6 +733,10 @@ body:not(.post-template) .post-title.list {
 	text-align: center;
 }
 
+.post-title {
+	font-family: "Open Sans", sans-serif;
+}
+
 .post-title a {
     text-decoration: none;
 }
@@ -737,6 +749,7 @@ body:not(.post-template) .post-title.list {
 
 .read-more {
     text-decoration: none;
+	font-size: 1.5rem;
 }
 
 .post-meta {
@@ -1300,6 +1313,11 @@ body:not(.post-template) .post-title.list {
         height: auto;
     }
 
+	.main-header-content {
+		margin-top: 4.5em;
+		margin-bottom: 1em;
+	}
+	
     .scroll-down,
     .home-template .main-header:after { display: none; }
 
@@ -1407,6 +1425,11 @@ body:not(.post-template) .post-title.list {
 
     .main-header {
     }
+
+	.main-header-content {
+		margin-top: 4.5em;
+		margin-bottom: 1em;
+	}
 
     .no-cover.main-header {
 
