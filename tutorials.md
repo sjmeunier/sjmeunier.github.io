@@ -19,6 +19,7 @@ title: Tutorials
 * [Part 13 - Colour Filters](/programming/2010/01/19/image-processing-in-csharp-part-13-colour-filters.html)
 
 ### Maths Algorithms in C&#35;
+
 #### Data Analysis
 * [The Arithmetic Mean](/programming/2009/10/21/maths-algorithms-in-csharp-the-arithmetic-mean.html)
 * [The Geometric Mean](/programming/2009/10/21/maths-algorithms-in-csharp-the-geometric-mean.html)
@@ -29,6 +30,7 @@ title: Tutorials
 * [Least Squares Fit With a Log Ordinate](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-with-a-log-ordinate.html)
 * [Least Squares Fit With a Log Abcissa](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-with-a-log-abcissa.html)
 * [Least Squares Fit Using Full Logs](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-using-full-logs.html)
+
 #### General
 * [Vectors](/programming/2009/10/23/vectors.html)
 * [Matrices](/programming/2009/10/23/matrices.html)
