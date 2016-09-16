@@ -20,3 +20,11 @@ collections:
   my_tags:
     output: true
     permalink: /tag/:name/
+
+defaults:
+  -
+     scope:
+       path: ""
+       type: my_tags
+     values:
+       layout: tag_list
