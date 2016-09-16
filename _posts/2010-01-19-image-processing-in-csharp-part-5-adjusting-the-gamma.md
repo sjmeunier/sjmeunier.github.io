@@ -6,11 +6,11 @@ categories: Programming
 tags: [c-sharp, tutorials, image-processing]
 ---
 
-Gamma correction has a history based on the properties of CRT’s and was first noted in televisions.
+Gamma correction has a history based on the properties of CRTâ€™s and was first noted in televisions.
 
 The light intensity of a CRT is not directly proportional to the input voltage, but is rather proportional to the input voltage raised to a particular power. This power was known as gamma, and varied with CRT. The value was usually around 2.5.
 
-This means that different CRT’s (televisions and monitors before the flatscreen days) all showed the same images slightly differently, and gamma correction was implement to correct this.
+This means that different CRT's (televisions and monitors before the flatscreen days) all showed the same images slightly differently, and gamma correction was implement to correct this.
 
 A gamma filter works by creating an array of 256 values called a gamma ramp for each value of the red, blue and green components. The gamma value must be between 0.2 and 5.
 
