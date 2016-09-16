@@ -15,3 +15,8 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'http://sjmeunier.github.io'
 author:         'Serge Meunier'
+
+collections:
+  my_tags:
+    output: true
+    permalink: /tag/:name/

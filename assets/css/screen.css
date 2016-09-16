@@ -97,14 +97,7 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-.shadow-image {
-	box-shadow: 6px 6px 10px #666666;
-}
 
-.shadow-image.centered {
-	margin: 0 auto;
-    display: block;
-}
 
 /* ==========================================================================
    1. Icons - Sets up the icon font and respective classes
@@ -168,6 +161,9 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\f608";
 }
 
+.icon-price-tags:before {
+    content: "\e936";
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
@@ -203,13 +199,10 @@ body {
 
 h1, h2, h3,
 h4, h5, h6 {
-    -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", serif;
+    font-family: "Crimson", serif;
 }
 
 h1 {
@@ -224,15 +217,15 @@ h2 {
 }
 
 h3 {
-    font-size: 3rem;
-}
-
-h4 {
     font-size: 2.5rem;
 }
 
-h5 {
+h4 {
     font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.5rem;
 }
 
 h6 {
@@ -588,15 +581,14 @@ margin on the iframe, cause it breaks stuff. */
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
-    float: left;
-    height: 38px;
+    height: 28px;
     padding: 0 15px 0 10px;
     border: transparent 1px solid;
     color: #9EABB3;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
-    line-height: 35px;
+    line-height: 25px;
     border-radius: 3px;
     transition: all ease 0.3s;
 }
@@ -734,7 +726,7 @@ body:not(.post-template) .post-title.list {
 }
 
 .post-title {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Crimson", serif;
 }
 
 .post-title a {
@@ -882,7 +874,7 @@ body:not(.post-template) .post-title.list {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0.6em 0;
+    padding: 0;
 }
 
 /* Break out larger images to be wider than the main text column
@@ -891,6 +883,10 @@ body:not(.post-template) .post-title.list {
     width: 126%;
     max-width: none;
     margin: 0 -13%;
+}
+
+.shadow-image {
+	box-shadow: 5px 5px 10px #666666;
 }
 
 /* The author credit area after the post */
@@ -1264,7 +1260,7 @@ body:not(.post-template) .post-title.list {
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
     font-family: "Crimson", serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.75em;
     color: #BBC7CC;
 }
@@ -1314,7 +1310,7 @@ body:not(.post-template) .post-title.list {
     }
 
 	.main-header-content {
-		margin-top: 4.5em;
+		margin-top: 5.0em;
 		margin-bottom: 1em;
 	}
 	
@@ -1361,23 +1357,23 @@ body:not(.post-template) .post-title.list {
     }
 
     h2 {
-        font-size: 3.6rem;
-    }
-
-    h3 {
         font-size: 3.1rem;
     }
 
+    h3 {
+        font-size: 2.6rem;
+    }
+
     h4 {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     h5 {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
     }
 
     h6 {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .author-profile {
@@ -1427,7 +1423,7 @@ body:not(.post-template) .post-title.list {
     }
 
 	.main-header-content {
-		margin-top: 4.5em;
+		margin-top: 5.0em;
 		margin-bottom: 1em;
 	}
 
@@ -1456,8 +1452,8 @@ body:not(.post-template) .post-title.list {
     .back-button,
     .general-button,
     .subscribe-button {
-        height: 44px;
-        line-height: 41px;
+        height: 34px;
+        line-height: 31px;
         border-radius: 0;
         color: #2e2e2e;
         background: transparent;
@@ -1504,7 +1500,6 @@ body:not(.post-template) .post-title.list {
     .inner,
     .pagination {
         width: auto;
-        margin: 2rem auto;
     }
 
     .post {
@@ -1515,10 +1510,6 @@ body:not(.post-template) .post-title.list {
         margin-right: 16px;
         padding-bottom: 2rem;
         line-height: 1.65em;
-    }
-
-    .post-date {
-        display: none;
     }
 
     .post-template .post-header {

@@ -5,6 +5,22 @@ archive: false
 post_class: post-template
 ---
 
+{% assign post = page %}
+  {% if post.tags.size > 0 %}
+    {% capture tags_content %} with <span class="icon-price-tags"></span>: {% endcapture %}
+    {% for post_tag in post.tags %}
+      {% assign tag = site.my_tags | where: "slug", post_tag %}
+      {% if tag %}
+        {% assign tag = tag[0] %}
+        {% capture tags_content_temp %}{{ tags_content }}<a href="{{ tag.url }}"><em>{{ tag.name }}</em></a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+        {% assign tags_content = tags_content_temp %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% assign tags_content = '' %}
+  {% endif %}
+  
+  
 {% include header.html %}
 
 <main class="content" role="main">
@@ -15,31 +31,9 @@ post_class: post-template
             <h2 class="post-title">{{ page.title }}</h2>
             <section class="post-meta">
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-                {% if page.categories.size > 0 %}
-                    {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
-                {% endif %}
+				{{ page.categories | array_to_sentence_string | prepend: 'Posted in ' }}{{ tags_content }}
             </section>
         </header>
-
-<!--        <header class="post-header">
-            <a id="blog-logo" href="{{site.url}}">
-                {% if site.logo %}
-                    <img src="{{site.logo}}" alt="{{ site.name }}" />
-                {% else %}
-                    <span class="blog-title">{{ site.name }}</span>
-                {%endif%}
-            </a>
-        </header> -->
-
-        <!-- <span class="post-meta">
-            <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-            {% if page.categories.size > 0 %}
-                {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
-            {% endif %}
-        </span> -->
-
-        <!-- <h1 class="post-title">{{ page.title }}</h1> -->
-
         <section class="post-content">
             {{content}}
         </section>
@@ -67,7 +61,7 @@ post_class: post-template
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        I'm a software developer, working as a .NET web developer. I am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding. 
+                        I work as a .NET web developer, but am also well-versed in Java, ElasicSearch, Hadoop and JavaScript, amongst others. I am also very passionate about astronomy and genealogy when not thinking about coding.
                     </p>
                 </section>
             {% endif %}
