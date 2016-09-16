@@ -9,7 +9,7 @@ paginate: 10
 excerpt_separator: <!--more-->
 baseurl: /
 domain_name: 'http://sjmeunier.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-84278851-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
