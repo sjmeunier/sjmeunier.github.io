@@ -22,7 +22,6 @@ cover: false
         <header class="post-header">
             <h2 class="post-title list"><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <section class="post-meta">
-                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
