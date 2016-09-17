@@ -427,11 +427,15 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.tagcloud h3 {
+	text-align: center;
+}
+
 .site-tag a {
     display: inline-block;
     margin-right: 12px;
     color: #333;
-    decoration: none;
+    text-decoration: none;
 }
 
 /* ==========================================================================
