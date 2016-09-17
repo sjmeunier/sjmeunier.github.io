@@ -4,7 +4,7 @@
  <span class="site-tag">
     <a href="/tag/{{ tag | first | slugify }}/"
         style="font-size: {{ tag | last | size  |  times: 2 | plus: 50  }}%">
-            {{ tag[0] | replace:'-', ' ' | replace:'sharp', '&#35;' | capitalize }} ({{ tag | last | size }})
+            {{ tag[0] | replace:'c-sharp', 'C&#35;' | replace:'-', ' ' | capitalize }} ({{ tag | last | size }})
     </a>
 </span>
 {% endfor %}
