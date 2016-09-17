@@ -427,6 +427,10 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
