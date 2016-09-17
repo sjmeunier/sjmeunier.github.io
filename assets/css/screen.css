@@ -427,6 +427,13 @@ margin on the iframe, cause it breaks stuff. */
     margin: 0;
 }
 
+.tagcloud.home {
+    position: relative;
+    width: 80%;
+	max-width: 1300px;
+    margin: 2rem auto 0rem auto;
+}
+
 .tagcloud h3 {
 	text-align: center;
 }
@@ -1519,6 +1526,12 @@ body:not(.post-template) .post-title.list {
         margin-right: 16px;
         padding-bottom: 2rem;
         line-height: 1.65em;
+    }
+    
+    .tagcloud.home {
+    	width:auto;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     .post-template .post-header {
