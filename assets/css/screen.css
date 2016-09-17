@@ -430,6 +430,8 @@ margin on the iframe, cause it breaks stuff. */
 .site-tag a {
     display: inline-block;
     margin-right: 12px;
+    color: #333;
+    decoration: none;
 }
 
 /* ==========================================================================
