@@ -10,7 +10,7 @@ I have now had a chance to process my image of the Mercury transit I took earlie
 
 Taken at 18:55 on 9 May 2016.
 
-[![Mercury Transit - 9 May 2016](/assets/images/blog/astronomy/mercury-transit-2016-05-09-18h55m.png){: .shadow-image .centered }](/assets/images/blog/astronomy/mercury-transit-2016-05-09-18h55m.png)
+[![Mercury Transit - 9 May 2016](/assets/images/blog/astronomy/mercury-transit-2016-05-09-18h55m-small.png){: .shadow-image .centered }](/assets/images/blog/astronomy/mercury-transit-2016-05-09-18h55m.png)
 _(Click on image for full size)_
 
 _The image was taken with my Meade 4.5" telescope (untracked) and 32mm eyepiece, projected onto a piece of paper, and then photographed with my Samsung S6_
