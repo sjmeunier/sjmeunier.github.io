@@ -21,3 +21,4 @@ My main camera is a ZWO ASI120MM monochrome video camera, with an LRGB filter se
 #### Jupiter
 * [Jupiter With Galilean Moons - 12 Mar 2016](/astronomy/2016/03/13/jupiter-12-mar-2016.html)
 * [First Colour Image of Jupiter - 15 Mar 2016](/astronomy/2016/03/17/jupiter-15-mar-2016.html)
+* [Jupiter Colour With Galilean Moons - 25 Mar 2016](/astronomy/2016/03/27/jupiter-25-mar-2016.html)
