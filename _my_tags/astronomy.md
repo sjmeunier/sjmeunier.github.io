@@ -1,0 +1,4 @@
+---
+slug: astronomy
+name: Astronomy
+---

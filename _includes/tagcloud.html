@@ -3,7 +3,7 @@
 {% for tag in tags %}
  <span class="site-tag">
     <a href="/tag/{{ tag | first | slugify }}/"
-        style="font-size: {{ tag | last | size  |  times: 2 | plus: 50  }}%">
+        style="font-size: {{ tag | last | size  |  times: 1.2 | plus: 60  }}%">
             {{ tag[0] | replace:'c-sharp', 'C&#35;' | replace:'-', ' ' | capitalize }} ({{ tag | last | size }})
     </a>
 </span>

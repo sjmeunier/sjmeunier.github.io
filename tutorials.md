@@ -39,3 +39,25 @@ title: Tutorials
 * [Combinations, Permutations and Factorials in C&#35;](/programming/2009/10/23/combinations-permutations-and-factorials-in-csharp.html)
 * [Finding the Prime Factors of a Number in C&#35;](/programming/2009/10/23/finding-the-prime-factors-of-a-number-in-csharp.html)
 * [Finding the Greatest Common Devisor in C&#35;](/programming/2009/10/23/finding-the-greatest-common-devisor-in-csharp.html)
+
+### Barcodes in C&#35;
+* [EAN-13](/programming/2009/10/27/ean-13.html)
+* [EAN-8](/programming/2009/10/27/ean-8.html)
+* [UPC-A](/programming/2009/10/27/upca.html)
+* [UPC-E](/programming/2009/10/27/upce.html)
+* [UPC-2](/programming/2009/10/27/upc-2.html)
+* [UPC-5](/programming/2009/10/27/upc-5.html)
+* [MSI](/programming/2009/10/27/msi.html)
+* [Standard 2 of 5](/programming/2009/10/27/stadard-2-of-5.html)
+* [Interleaved 2 of 5](/programming/2009/10/27/interleaved-2-of-5.html)
+
+### Fractals in C&#35;
+* [Plasma Fractals](/programming/2009/09/30/plasma-fractals.html)
+* [Sierpinski Triangles and Squares](/programming/2009/09/30/sierpinski-triangles-and-squares.html)
+* [Fern Fractals](/programming/2009/09/30/fern-fractals.html)
+* [Brownian Motion](/programming/2009/09/30/brownian-motion.html)
+* [T-Squares](/programming/2009/09/30/t-square-fractals.html)
+* [Mandelbrot Set](/programming/2009/09/30/mandelbrot-set.html)
+* [Julia Sets](/programming/2009/09/30/julia-sets.html)
+* [Newton-Rhapson Fractals](/programming/2009/09/30/newton-rhapson-fractals.html)
+* [The Lorenz Attractor](/programming/2009/09/30/the-lorenz-attractor.html)

@@ -1,0 +1,4 @@
+---
+slug: barcodes
+name: Barcodes
+---
