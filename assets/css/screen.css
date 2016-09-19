@@ -903,6 +903,11 @@ body:not(.post-template) .post-title.list {
 
 .shadow-image {
 	box-shadow: 5px 5px 10px #666666;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .shadow-image.right {
