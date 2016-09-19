@@ -905,6 +905,10 @@ body:not(.post-template) .post-title.list {
 	box-shadow: 5px 5px 10px #666666;
 }
 
+.shadow-image.right {
+	float: right;
+}
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
