@@ -61,3 +61,22 @@ title: Tutorials
 * [Julia Sets](/programming/2009/09/30/fractals-in-csharp-julia-sets.html)
 * [Newton-Rhapson Fractals](/programming/2009/09/30/fractals-in-csharp-newton-rhapson-fractals.html)
 * [The Lorenz Attractor](/programming/2009/09/30/fractals-in-csharp-the-lorenz-attractor.html)
+
+### General
+
+#### C&#35;
+* [Drawing Spirals in C&#35;](/programming/2013/03/02/drawing-spirals-in-csharp.html)
+* [Proportionately Resizing A Bitmap in C&#35;](/programming/2009/11/15/proportionately-resizing-a-bitmap-in-csharp.html)
+* [Using Markhov Chaining to Generate Random Words](/programming/2009/09/28/using-markhov-chaining-to-generate-random-words.html)
+* [Generating Various Audio Waveforms in C&#35;](/programming/2009/10/05/generating-various-audio-waveforms-in-csharp.html)
+* [An Implementation of a Binary Tree in C&#35;](/programming/2009/10/26/an-implementation-of-a-binary-tree-in-csharp.html)
+* [Binary Tree Traversals](/programming/2009/10/26/binary-tree-traversals.html)
+* [Finding the Distance Between Two GPS Coordinates](/programming/2009/10/08/finding-the-distance-between-two-GPS-coordinates.html)
+* [Finding the Bearing Between Two GPS Coordinates](/programming/2009/10/08/finding-the-bearing-between-two-GPS-coordinates.html)
+* [Finding the Midpoint Between Two GPS Coordinates](/programming/2009/10/08/finding-the-midpoint-between-two-GPS-coordinates.html)
+* [Iterating Over Char Values in C&#35;](/programming/2010/10/17/iterating-over-char-values-in-csharp.html)
+
+#### JavaScript
+* [Using jQuery to Find JavaScript Events](/programming/2012/05/31/using-jquery-to-find-javascript-events.html)
+* [Faster String concatenation in JavaScript](/programming/2011/04/20/faster-string-concatenation-in-javascript.html)
+* [How to Dump a JavaScript Object](/programming/2009/11/13/how-to-dump-a-javascript-object.html)

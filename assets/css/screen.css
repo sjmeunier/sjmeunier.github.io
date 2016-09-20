@@ -105,19 +105,19 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Import the font file with the icons in it */
 @font-face {
-    font-family: "casper-icons";
-    src:url("../fonts/casper-icons.eot");
-    src:url("../fonts/casper-icons.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/casper-icons.woff") format("woff"),
-        url("../fonts/casper-icons.ttf") format("truetype"),
-        url("../fonts/casper-icons.svg#icons") format("svg");
+    font-family: "site-icons";
+    src:url("../fonts/icons.eot");
+    src:url("../fonts/icons.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/icons.woff") format("woff"),
+        url("../fonts/icons.ttf") format("truetype"),
+        url("../fonts/icons.svg#icons") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 /* Apply these base styles to all icons */
 [class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+    font-family: "site-icons", "Open Sans", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -131,39 +131,83 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Each icon is created by inserting the correct character into the
    content of the :before pseudo element. Like a boss. */
-.icon-ghost:before {
-    content: "\f600";
-}
 .icon-feed:before {
-    content: "\f601";
+    content: "\ea9b";
 }
 .icon-twitter:before {
-    content: "\f602";
+    content: "\ea96";
     font-size: 1.1em;
 }
 .icon-google-plus:before {
-    content: "\f603";
+    content: "\ea8c";
 }
 .icon-facebook:before {
-    content: "\f604";
+    content: "\ea91";
 }
-.icon-arrow-left:before {
-    content: "\f605";
-}
-.icon-stats:before {
-    content: "\f606";
-}
-.icon-location:before {
-    content: "\f607";
-    margin-left: -3px; /* Tracking fix */
+.icon-youtube:before {
+    content: "\ea9d";
 }
 .icon-link:before {
-    content: "\f608";
+    content: "\e9cb";
 }
-
 .icon-price-tags:before {
     content: "\e936";
 }
+.icon-price-tag:before {
+    content: "\e935";
+}
+.icon-home:before {
+    content: "\e900";
+}
+.icon-steam:before {
+    content: "\eaad";
+}
+.icon-mail:before {
+    content: "\ea83";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-skype:before {
+    content: "\eac5";
+}
+.icon-stackoverflow:before {
+    content: "\ead0";
+}
+.icon-firefox:before {
+    content: "\eada";
+}
+.icon-ie:before {
+    content: "\eadb";
+}
+.icon-edge:before {
+    content: "\eadc";
+}
+.icon-paypal:before {
+    content: "\ead8";
+}
+.icon-linkedin:before {
+    content: "\eac9";
+}
+.icon-chrome:before {
+    content: "\ead9";
+}
+.icon-flickr:before {
+    content: "\eaa5";
+}
+.icon-windows:before {
+    content: "\eac2";
+}
+.icon-apple:before {
+    content: "\eabe";
+}
+.icon-android:before {
+    content: "\eac0";
+}
+.icon-linux:before {
+    content: "\eabd";
+}
+
 
 /* ==========================================================================
    2. General - Setting up some base styles
