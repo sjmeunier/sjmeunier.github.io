@@ -3,7 +3,7 @@ layout: post
 title:  "Mercury Transit on 9 May 2016"
 date:   2016-05-09 21:00:00
 categories: Astronomy
-tags: [astronomy, jupiter]
+tags: [astronomy, sun]
 ---
 
 I have now had a chance to process my image of the Mercury transit I took earlier this evening. I improved the contrast and made some other tweaks to get a decent image. This really highlights Mercury (near the centre bottom of the image) with a few sunspots visible.

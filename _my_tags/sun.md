@@ -1,0 +1,4 @@
+---
+slug: sun
+name: Sun
+---

@@ -13,7 +13,6 @@ My main camera is a ZWO ASI120MM monochrome video camera, with an LRGB filter se
 
 #### The Moon
 * [Moon at First Quarter - 12 Mar 2016](/astronomy/2016/03/18/moon-12-mar-2016.html)
-* [Waxing gibbous Moon - 15 Mar 2016](/astronomy/2016/03/18/moon-15-mar-2016.html)
 * [Full Moon - 22 Mar 2016](/astronomy/2016/03/23/moon-22-mar-2016.html)
 * [Waxing Gibbous Moon - 12 Sep 2016](/astronomy/2016/09/12/moon-12-sep-2016.html)
 
