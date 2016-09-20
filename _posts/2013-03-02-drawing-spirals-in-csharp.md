@@ -16,6 +16,7 @@ _Radius = Angle * ScalingFactor_
 We can also use quadratic or cubic equations to define the realtionship
 _Radius = Angle2 * ScalingFactor_
 _Radius = Angle3 * ScalingFactor_
+<!--more-->
 
 The most interesting spiral, however, is the exponential spiral, which is found in nature most famously in the nautilus shell.
 _Radius = Anglee * ScalingFactor_
@@ -26,9 +27,7 @@ Starting at the origin, with angle 0, we need to increment the angle by a certai
 
 Now after finding the coordinates of the point, we simply need to draw a line segment from our previous point to the new point. The smaller the angle increment, the smoother the curve which is drawn will be, but it also means that more points need to be calculated to draw the same curve, which consumes more processing time.
 
-One good way of speeding up the calcution of the curve, is to use a lookup table for the cos and sin values instead of calculating them with each iteration, but that is a topic for another post.
-
-<!--more-->
+One good way of speeding up the calcution of the curve, is to use a lookup table for the cos and sin 
 
 {% highlight csharp %}
   public void drawSpiral(double scale, double delta, double revolutions, int centreX, int centreY, SpiralType spiralType, int width, int height, Color color, Graphics g)
