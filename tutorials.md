@@ -71,9 +71,9 @@ title: Tutorials
 * [Generating Various Audio Waveforms in C&#35;](/programming/2009/10/05/generating-various-audio-waveforms-in-csharp.html)
 * [An Implementation of a Binary Tree in C&#35;](/programming/2009/10/26/an-implementation-of-a-binary-tree-in-csharp.html)
 * [Binary Tree Traversals](/programming/2009/10/26/binary-tree-traversals.html)
-* [Finding the Distance Between Two GPS Coordinates](/programming/2009/10/08/finding-the-distance-between-two-GPS-coordinates.html)
-* [Finding the Bearing Between Two GPS Coordinates](/programming/2009/10/08/finding-the-bearing-between-two-GPS-coordinates.html)
-* [Finding the Midpoint Between Two GPS Coordinates](/programming/2009/10/08/finding-the-midpoint-between-two-GPS-coordinates.html)
+* [Finding the Distance Between Two GPS Coordinates](/programming/2009/10/08/finding-the-distance-between-two-gps-coordinates.html)
+* [Finding the Bearing Between Two GPS Coordinates](/programming/2009/10/08/finding-the-bearing-between-two-gps-coordinates.html)
+* [Finding the Midpoint Between Two GPS Coordinates](/programming/2009/10/08/finding-the-midpoint-between-two-gps-coordinates.html)
 * [Iterating Over Char Values in C&#35;](/programming/2010/10/17/iterating-over-char-values-in-csharp.html)
 
 #### JavaScript
