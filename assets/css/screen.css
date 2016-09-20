@@ -67,7 +67,7 @@ img { border: 0; }
 svg:not(:root) { overflow: hidden; }
 figure { 
 	margin: 0;
-	margin-top: -0.8em;
+	
 }
 fieldset {
    border: 1px solid #c0c0c0;
