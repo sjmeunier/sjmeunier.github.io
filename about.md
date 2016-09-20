@@ -10,6 +10,6 @@ I am also very passionate about astronomy and genealogy when not thinking about 
 
 I have been living in the Netherlands for the past 6 years, with my wife and son, and am originally from South Africa.
 
-[sjmeunier@gmail.com](mailto://sjmeunier@gmail.com){: .icon-mail }<br/>
+[<span class="mainlink">sjmeunier@gmail.com</span>](mailto://sjmeunier@gmail.com){: .icon-mail .aboutlink }<br/>
 [<span class="mainlink">GitHub (sjmeunier)</span>](https://github.com/sjmeunier){: .icon-github .aboutlink }<br/>
-[Flickr (sjmeunier)](https://www.flickr.com/photos/78511972@N04){: .icon-flickr }
+[<span class="mainlink">Flickr (sjmeunier)</span>](https://www.flickr.com/photos/78511972@N04){: .icon-flickr .aboutlink }
