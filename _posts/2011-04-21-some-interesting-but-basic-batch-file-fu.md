@@ -73,7 +73,6 @@ The basic format is _%varname:~[x],[y]%_, where _[x]_ is the starting index in t
 If the first parameter is positive, then it denotes the index from the start of the string, while if it is negative, it will denote the index from the end of the string.
 
 So let us use an example
-
 {% highlight text %}
 set var=teststring
 
