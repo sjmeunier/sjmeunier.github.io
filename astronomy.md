@@ -27,3 +27,4 @@ My main camera is a ZWO ASI120MM monochrome video camera, with an LRGB filter se
 
 ### Other Posts
 * [My Entries for the Hubble Hidden Treasures Image Processing Contest 2012](/astronomy/2012/06/10/my-entries-for-the-hubble-hidden-treasures-image-processing-contest.html)
+* [Herschel Image Processing](/astronomy/2012/07/03/herschel-image-processing.html)
