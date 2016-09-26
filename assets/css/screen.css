@@ -552,10 +552,10 @@ margin on the iframe, cause it breaks stuff. */
     overflow: hidden;
     max-height: 40%;
     background: url('/assets/images/moon_logo.png') no-repeat fixed center;
-	background: -webkit-linear-gradient(transparent, #ffffff) url('/assets/images/moon_logo.png') no-repeat fixed center; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(transparent, #ffffff) url('/assets/images/moon_logo.png') no-repeat fixed center; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(transparent, #ffffff) url('/assets/images/moon_logo.png') no-repeat fixed center;
-	background: linear-gradient(transparent, #ffffff) url('/assets/images/moon_logo.png') no-repeat fixed center;
+	background: -webkit-linear-gradient(transparent, #ffffff), url('/assets/images/moon_logo.png') no-repeat fixed center; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #ffffff), url('/assets/images/moon_logo.png') no-repeat fixed center; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #ffffff), url('/assets/images/moon_logo.png') no-repeat fixed center;
+	background: linear-gradient(transparent, #ffffff), url('/assets/images/moon_logo.png') no-repeat fixed center;
     border-bottom: none;
 }
 
