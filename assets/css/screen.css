@@ -551,11 +551,11 @@ margin on the iframe, cause it breaks stuff. */
     background-size: cover;
     overflow: hidden;
     max-height: 40%;
-    background: url('/assets/images/moon_logo.png') no-repeat fixed center;
-	background: -webkit-linear-gradient(transparent, #ffffff), #808080 url('/assets/images/moon_logo.png') no-repeat center; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(transparent, #ffffff), #808080 url('/assets/images/moon_logo.png') no-repeat center; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(transparent, #ffffff), #808080 url('/assets/images/moon_logo.png') no-repeat center;
-	background: linear-gradient(transparent, #ffffff), #808080 url('/assets/images/moon_logo.png') no-repeat center;
+    background: #4c4c4c url('/assets/images/moon_logo.png') no-repeat fixed center;
+	background: -webkit-linear-gradient(transparent, #ffffff), #4c4c4c url('/assets/images/moon_logo.png') no-repeat center; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #ffffff), #4c4c4c url('/assets/images/moon_logo.png') no-repeat center; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #ffffff), #4c4c4c url('/assets/images/moon_logo.png') no-repeat center;
+	background: linear-gradient(transparent, #ffffff), #4c4c4c url('/assets/images/moon_logo.png') no-repeat center;
     border-bottom: none;
 }
 
@@ -669,6 +669,8 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 12px;
     text-transform: uppercase;
     line-height: 25px;
+	color: #444;
+    font-weight: bold;
     border-radius: 3px;
     transition: all ease 0.3s;
 }
