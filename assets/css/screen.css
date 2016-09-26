@@ -545,16 +545,17 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+	margin-bottom: 0;
     text-align: center;
     background-size: cover;
     overflow: hidden;
     max-height: 40%;
-    background: #ffffff;
-	background: -webkit-linear-gradient(#bbf, #fefeff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#bbf, #fefeff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#bbf, #fefeff);
-	background: linear-gradient(#bbf, #fefeff);
+    background: url('/assets/images/moon_logo.png');
+	background: -webkit-linear-gradient(transparent, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #ffffff);
+	background: linear-gradient(transparent, #ffffff);
     border-bottom: none;
 }
 
