@@ -6,7 +6,7 @@ categories: Programming
 tags: [genealogy, c-sharp, tutorials]
 ---
 
-Now that we know how gedcom files work (covered in part 1), we need to actually parse the file.
+Now that we know how gedcom files work (covered in [part 1](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-1.html)), we need to actually parse the file.
 
 The way in which the gedcom is structured is that each new record entry starts on a line with a 0. All lines with a 1 under that belong to that record. Similarly, lines with a 2 prefix, belond to the the entry prefixed by a 1 directly above it.
 
@@ -22,6 +22,7 @@ As an example, the VERS and FORM lines are linked to the GEDC keyword as the 2 i
 2 VERS 5.5
 2 FORM LINEAGE-LINKED
 {% endhighlight %}
+<!--more-->
 
 There is an exception to the second field being the keyword, and that is in the individual, family and note record entry fields which take the format 0 @Ixxx@ INDI for an individual record for example.
 

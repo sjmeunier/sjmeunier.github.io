@@ -48,6 +48,7 @@ Here is a sample gedcom file
 {% endhighlight %}
 
 Before we start processing the file, we need to have some data structures to hold the data from the file.
+<!--more-->
 
 {% highlight csharp %}
 public struct GedcomHeader  
@@ -166,6 +167,6 @@ public enum GedcomSubRecordEnum
 
 The full source is available at [https://github.com/sjmeunier/family-traces](https://github.com/sjmeunier/family-traces).
 
-Now we need to get to parsing the file, which is covered in [Importing a Gedcom file – Part 2](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-1.html)
+Now we need to get to parsing the file, which is covered in [Importing a Gedcom file – Part 2](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-2.html)
 
 _Originally posted on my old blog, Smoky Cogs on 22 Feb 2010_
