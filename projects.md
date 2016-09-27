@@ -23,6 +23,7 @@ I have dabbled in many hobby projects over the years. Here are some of the most 
 * [Scientific Name Search](https://github.com/sjmeunier/scientific-name-search) - An application which uses a web API to search for scientific names of plants and animals.
 * [Audiogility](https://github.com/sjmeunier/audiogility) - An experimental game written in Java with libgdx, running on Android and PC
 * [Plasmatic](https://github.com/sjmeunier/plasmatic) - An Android cloud fractal generator
+* [Dutch Public Holidays](https://github.com/sjmeunier/dutchpublicholidays) - An app which lists the Dutch public holidays
 
 ### JavaScript
 * [Elemental](https://github.com/sjmeunier/elemental) - A periodic table of elements, coded in JavaScript, showing off Appecelerator Titanium
