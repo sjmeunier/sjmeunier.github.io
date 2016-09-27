@@ -62,6 +62,11 @@ title: Tutorials
 * [Newton-Rhapson Fractals](/programming/2009/09/30/fractals-in-csharp-newton-rhapson-fractals.html)
 * [The Lorenz Attractor](/programming/2009/09/30/fractals-in-csharp-the-lorenz-attractor.html)
 
+### Writing a Family Tree Application in C&#35;
+* [The Underlying Structure](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-the-underlying-structure.html)
+* [Import a Gedcom File - Part 1](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-1.html)
+* [Import a Gedcom File - Part 2](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-2.html)
+
 ### General
 
 #### C&#35;

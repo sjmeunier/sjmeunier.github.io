@@ -1,0 +1,4 @@
+---
+slug: genealogy
+name: Genealogy
+---
