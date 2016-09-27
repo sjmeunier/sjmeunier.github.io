@@ -16,14 +16,14 @@ Since there is nothing that can&#8217;t be found in other tutorials in the appli
 
 **Dutch Public Holidays**
 This was the first app I wrote, and is rather very simple in construction. It merely shows a list of public holidays for the Netherlands for a particular year.
-[https://github.com/sjmeunier/dutchpublicholidays](https://github.com/sjmeunier/dutchpublicholidays)
+Source available at [https://github.com/sjmeunier/dutchpublicholidays](https://github.com/sjmeunier/dutchpublicholidays)
 
 **Plasmatic**
 I ported some code from my C&#35; fractal library I had written a while back to Java to draw plasma fractals. The application generates a plasma fractal based on a set of preferences, and is able to save the generated images to a file on the mobile device.
-[https://github.com/sjmeunier/plasmatic](https://github.com/sjmeunier/plasmatic)
+Source available at [https://github.com/sjmeunier/plasmatic](https://github.com/sjmeunier/plasmatic)
 
 **Scientific Name Search**
 This app makes use of a webservice provided by [www.itis.gov](http://www.itis.gov/) to search for information such as the scientific name and taxonimic classification of plants and animals.
-[https://github.com/sjmeunier/scientific-name-search](https://github.com/sjmeunier/scientific-name-search)
+Source available at [https://github.com/sjmeunier/scientific-name-search](https://github.com/sjmeunier/scientific-name-search)
 
 _Originally posted on my old blog, Smoky Cogs, on 2 Feb 2013_
