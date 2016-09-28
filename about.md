@@ -12,4 +12,5 @@ I have been living in the Netherlands for the past 6 years, with my wife and son
 
 [<span class="mainlink">sjmeunier@gmail.com</span>](mailto://sjmeunier@gmail.com){: .icon-mail .aboutlink }<br/>
 [<span class="mainlink">GitHub (sjmeunier)</span>](https://github.com/sjmeunier){: .icon-github .aboutlink }<br/>
-[<span class="mainlink">Flickr (sjmeunier)</span>](https://www.flickr.com/photos/78511972@N04){: .icon-flickr .aboutlink }
+[<span class="mainlink">Flickr (sjmeunier)</span>](https://www.flickr.com/photos/78511972@N04){: .icon-flickr .aboutlink }<br/>
+[<span class="mainlink">Facebook</span>](https://www.facebook.com/sergesworld/){: .icon-facebook .aboutlink }
