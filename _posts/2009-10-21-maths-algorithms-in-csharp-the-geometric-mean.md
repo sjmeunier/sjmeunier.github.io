@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: The Geometric Mean"
 date:   2009-10-21 00:00:02
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 The geometric mean is similar to the arithmetic mean in that it is a type of average for the data, except it has a rather different way of calculating it.

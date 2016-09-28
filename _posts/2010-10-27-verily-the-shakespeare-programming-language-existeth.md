@@ -3,7 +3,7 @@ layout: post
 title:  "Intercal - An Arcane Programming Language With A Sense of Humour"
 date:   2009-09-29 00:00:00
 categories: Programming
-tags: [esoteric-languages]
+tags: [esoteric-languages, programming]
 ---
 
 Here is something that was a very pleasant surprise when I saw it. There actually exists a programming language, the [Shakespeare Programming Language](http://shakespearelang.sourceforge.net/report/shakespeare/), written by Karl Hasselström and Jon Åslund, which is unlike anything I have seen before.

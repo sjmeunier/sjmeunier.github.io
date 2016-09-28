@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 5 - Adjusting the Gamma"
 date:   2010-01-19 00:00:05
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Gamma correction has a history based on the properties of CRT’s and was first noted in televisions.

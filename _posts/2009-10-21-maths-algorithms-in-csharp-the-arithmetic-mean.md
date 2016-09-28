@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: The Arithmetic Mean"
 date:   2009-10-21 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 The arithmetic mean is defined as the average of a set of data.  It is found by taking the sum of each value in the data set, and then dividing by the total number of data points.

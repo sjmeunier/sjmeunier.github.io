@@ -3,7 +3,7 @@ layout: post
 title:  "Writing a Family Tree Application in C#: Importing a Gedcom File - Part 1"
 date:   2010-02-22 00:00:02
 categories: Programming
-tags: [genealogy, c-sharp, tutorials]
+tags: [genealogy, c-sharp, tutorials, programming]
 ---
 
 In my previous post in this series, I introduced the Family Traces family tree application. Now, I am going to go through the importing of a gedcom file.

@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: The Median"
 date:   2009-10-21 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 The median is defined as the data point that falls exactly at the midpoint of a set of data points. If there is an even number of points, then the average is taken of the middle two points.

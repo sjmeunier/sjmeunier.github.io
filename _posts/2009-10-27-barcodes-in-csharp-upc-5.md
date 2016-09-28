@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: UPC-5"
 date:   2009-10-27 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 UPC-5 is a variation on the UPC-A barcode](/programming/2009/10/barcodes-in-csharp-upca) designed to contain 5 digits of data.

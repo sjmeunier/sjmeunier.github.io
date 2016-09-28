@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: Standard 2 of 5"
 date:   2009-10-27 00:00:07
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The standard 2 of 5 barcode format encodes all of the information in the bars, and only uses the spaces for spacing purposes, unlike all the other barcodes we have looked at so far, and is used mostly in warehouses and airline ticketing.

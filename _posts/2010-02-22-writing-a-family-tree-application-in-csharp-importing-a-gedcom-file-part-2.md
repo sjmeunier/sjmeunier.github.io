@@ -3,7 +3,7 @@ layout: post
 title:  "Writing a Family Tree Application in C#: Importing a Gedcom File - Part 2"
 date:   2010-02-22 00:00:03
 categories: Programming
-tags: [genealogy, c-sharp, tutorials]
+tags: [genealogy, c-sharp, tutorials, programming]
 ---
 
 Now that we know how gedcom files work (covered in [part 1](/programming/2010/02/22/writing-a-family-tree-application-in-csharp-importing-a-gedcom-file-part-1.html)), we need to actually parse the file.

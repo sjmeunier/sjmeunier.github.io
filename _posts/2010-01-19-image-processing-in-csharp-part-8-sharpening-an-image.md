@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 8 - Sharpening an Image"
 date:   2010-01-19 00:00:08
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Sharpening an image is merely the inverse of what we did to blur the image. It also uses the convolution function, which you can read in my post about [smoothing using convolution](/programming/2010/01/19/image-processing-in-csharp-part-6-smoothing-using-convolution.html).

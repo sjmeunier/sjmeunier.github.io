@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: UPC-E"
 date:   2009-10-27 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The UPC-E barcode format is a compressed form of the [UPC-A format](/programming/2009/10/barcodes-in-csharp-upca) and is used where space is at a premium. The UPC-E format also require that there are at least 5 0's in a group in the barcode, so that it can be compressed.

@@ -3,7 +3,7 @@ layout: post
 title:  "Finding the Midpoint Between Two GPS Coordinates"
 date:   2009-10-08 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, geodesy, maths]
+tags: [c-sharp, tutorials, geodesy, maths, programming]
 ---
 
 Previously I showed how to [find the distance between coordinates](/programming/2009/10/08/finding-the-distance-between-two-gps-coordinates) and the [bearing](/programming/2009/10/08/finding-the-bearibg-between-two-gps-coordinates), but what if you want to find the midpoint of two coordinates.

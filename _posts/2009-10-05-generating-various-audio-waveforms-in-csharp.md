@@ -3,7 +3,7 @@ layout: post
 title:  "Generating Various Audio Waveforms in C#"
 date:   2009-10-05 00:00:00
 categories: Programming
-tags: [c-sharp, tutorials, audio]
+tags: [c-sharp, tutorials, audio, programming]
 ---
 
 I did a little bit of tinkering with an audio application a while ago which generated a variety of different audio waveforms. It is surprisingly easy to generate quite a few of the more common ones such as white noise and sine waves, so here is a little howto to implement this in C&#35;.

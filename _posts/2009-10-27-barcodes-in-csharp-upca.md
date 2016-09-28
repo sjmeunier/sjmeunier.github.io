@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: UPC-A"
 date:   2009-10-27 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The UPC-A barcode format is very similar to the [EAN-13 barcode](/programming/2009/10/barcodes-in-csharp-ean-13) and is mostly used in America, although in recent years, the US is moving towards the EAN-13 format too. The UPC-A format is 12 digits long, with the last digit being the checksum (or parity) digit.

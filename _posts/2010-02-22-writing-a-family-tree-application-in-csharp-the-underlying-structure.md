@@ -3,7 +3,7 @@ layout: post
 title:  "Writing a Family Tree Application in C#: The Underlying Structure"
 date:   2010-02-22 00:00:01
 categories: Programming
-tags: [genealogy, c-sharp, tutorials]
+tags: [genealogy, c-sharp, tutorials, programming]
 ---
 
 I love being able to trace my family tree, and have used several good genealogy applications which I have found very useful, including Family Tree Legends and Family Tree Builder. The problem I have though, is that they do not always contain everything which I am looking for, so I decided to write a family tree application to plug in the holes.

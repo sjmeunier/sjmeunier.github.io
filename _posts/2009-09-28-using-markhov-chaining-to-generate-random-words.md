@@ -3,7 +3,7 @@ layout: post
 title:  "Using Markhov Chaining to Generate Random Words"
 date:   2009-09-28 00:00:00
 categories: Programming
-tags: [c-sharp, tutorials]
+tags: [c-sharp, tutorials, programming]
 ---
 
 A while back I wrote a little application that performs Markhov chaining to create random names.

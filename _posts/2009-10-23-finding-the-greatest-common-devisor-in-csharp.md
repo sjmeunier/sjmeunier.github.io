@@ -3,7 +3,7 @@ layout: post
 title:  "Finding the Greatest Common Devisor in C#"
 date:   2009-10-23 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 The greatest common divisor of two numbers is the largest number that divides evenly into both numbers.

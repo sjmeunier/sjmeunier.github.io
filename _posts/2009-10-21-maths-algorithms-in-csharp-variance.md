@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Variance"
 date:   2009-10-21 00:00:05
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 I talked a bit about variance in the post on [standard deviation](/programming/2009/10/21/maths-algorithms-in-csharp-standard-deviation.html), so this is a little bit a rehash from what I said there.

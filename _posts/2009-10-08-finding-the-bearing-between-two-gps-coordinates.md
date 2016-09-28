@@ -3,7 +3,7 @@ layout: post
 title:  "Finding the Bearing Between Two GPS Coordinates"
 date:   2009-10-08 00:00:02
 categories: Programming
-tags: [c-sharp, tutorials, geodesy, maths]
+tags: [c-sharp, tutorials, geodesy, maths, programming]
 ---
 
 Don't you think it would be really great to be able to work out the precise bearing of a place in relation to where you are now? The calculation for this is rather simple if you have the geographical coordinates of the two points that you would like to find the bearing of.

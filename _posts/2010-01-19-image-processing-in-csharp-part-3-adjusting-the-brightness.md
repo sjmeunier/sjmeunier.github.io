@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 3 - Adjusting the Brightness"
 date:   2010-01-19 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 To increase the brightness of an image, all you need to do is add a value to each component for each pixel in the image.

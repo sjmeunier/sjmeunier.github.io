@@ -3,7 +3,7 @@ layout: post
 title:  "Complex Numbers"
 date:   2009-10-23 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 Complex numbers are a vital part of many mathematical calculations, yet Visual Studio does not natively support complex numbers, but fortunately, this is a very easy oversight to fix.

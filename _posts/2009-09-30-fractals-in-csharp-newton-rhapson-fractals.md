@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Newton Rhapson Fractals"
 date:   2009-09-30 00:00:08
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 For anyone who has studied calculus, the Newton-Rhapson method should be familiar. To those who have not, I do apologize if I lose you, but will try to make it easy.

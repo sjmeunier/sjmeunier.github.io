@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Standard Deviation"
 date:   2009-10-21 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 Standard deviation is a very common calculation in statistical analysis, and is formally defined as the square root of the variance of the data set.

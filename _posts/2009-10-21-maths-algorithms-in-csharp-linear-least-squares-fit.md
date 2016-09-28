@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Linear Least Squares Fit"
 date:   2009-10-21 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 When analysing data it is often useful to find an equation to show the relationship in a certain set of data. The linear least squares fit tries to do exactly that.

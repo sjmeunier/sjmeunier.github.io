@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: EAN-8"
 date:   2009-10-27 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The EAN-8 barcode format is a compressed format of the [EAN-13 barcode](/programming/2009/10/barcodes-in-csharp-ean-13), only containing 7 digits plus one checksum digit, and is generally used in places where a fullsized EAN-13 barcode would not fit.

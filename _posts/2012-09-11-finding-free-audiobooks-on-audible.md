@@ -3,7 +3,7 @@ layout: post
 title:  "Finding Free Audiobooks on Audible"
 date:   2012-09-11 00:00:00
 categories: General
-tags: [audiobooks]
+tags: [audiobooks, web]
 ---
 
 Having recently created an account on [Audible.com](http://www.audible.com/), I have been trying to find interesting titles to add to my library.

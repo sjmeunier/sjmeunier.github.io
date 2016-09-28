@@ -3,7 +3,7 @@ layout: post
 title:  "Binary Tree Traversals"
 date:   2009-10-26 00:00:02
 categories: Programming
-tags: [c-sharp, tutorials, algorithms]
+tags: [c-sharp, tutorials, algorithms, programming]
 ---
 
 In my last post I created a [binary tree class](/programming/2009/10/26/an-implementation-of-a-binary-tree-in-csharp.html). This post follows on from that, so I would recommend reading that first, if you have not already done so.

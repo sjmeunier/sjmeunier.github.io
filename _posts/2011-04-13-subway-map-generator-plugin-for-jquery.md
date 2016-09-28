@@ -3,7 +3,7 @@ layout: post
 title:  "Subway Map Generator Plugin for jQuery"
 date:   2011-04-13 00:00:00
 categories: Programming
-tags: [javascript, jquery]
+tags: [javascript, jquery, programming, web]
 ---
 
 I have always admired subway maps for the clarity and elegance with which they are able represent a convoluted public transport system. Now there is a way to expand this concept and create your own maps using a [subway map plugin](http://www.kalyani.com/2010/10/subway-map-visualization-jquery-plugin/) for jQuery written by Nik Kalyani.

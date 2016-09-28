@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 7 - Applying a Gaussian Blur"
 date:   2010-01-19 00:00:07
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Gaussian blur also uses convolution to create the effect. If you have not yet read my blog post on [smoothing using convolution](/programming/2010/01/19/image-processing-in-csharp-part-6-smoothing-using-convolution.html), I would advise you to read that post first, as in that post I explain how the convolution function works.

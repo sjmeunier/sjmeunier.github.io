@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 9 - Applying a Mean Removal"
 date:   2010-01-19 00:00:09
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Another type of sharpening effect is mean removal. It works similarly to the [standard sharpening](/programming/2010/01/19/image-processing-in-csharp-part-8-sharpening-the-image.html), except it subtracts values from all the surrounding pixels evenly.

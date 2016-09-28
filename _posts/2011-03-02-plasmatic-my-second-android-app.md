@@ -3,7 +3,7 @@ layout: post
 title:  "Plasmatic - My Second Android App"
 date:   2011-03-02 00:00:00
 categories: Programming
-tags: [android, java, fractals]
+tags: [android, java, fractals, programming]
 ---
 
 A few days ago I blogged about my [first Android app](/programming/2011/02/24/my-first-android-app-a-dutch-public-holiday-app.html), and in that post I promised another one coming along soon. Well, it is now done.

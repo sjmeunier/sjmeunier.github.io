@@ -3,7 +3,7 @@ layout: post
 title:  "Intercal - An Arcane Programming Language With A Sense of Humour"
 date:   2009-09-29 00:00:00
 categories: Programming
-tags: [esoteric-languages]
+tags: [esoteric-languages, programming]
 ---
 
 I recently blogged about Whitespace, being a language that was written primarily to be as obscure as possible. Well, [Intercal](http://www.catb.org/~esr/intercal/) is one of the old-timers in this category. It was conceived all the way back in 1972.

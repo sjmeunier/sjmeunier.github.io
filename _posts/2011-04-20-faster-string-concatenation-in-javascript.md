@@ -3,7 +3,7 @@ layout: post
 title:  "Faster String Concatenation in JavaScript"
 date:   2011-04-20 00:00:00
 categories: Programming
-tags: [javascript, tutorials]
+tags: [javascript, tutorials, programming, web]
 ---
 
 With AJAX being the norm for websites these days, and JavaScript taking on more a more central role in building up web content, you are more than likely going to find yourself having to build up strings containing html to display in a webpage using JavaScript.

@@ -7,7 +7,7 @@ post_class: post-template
 
 {% assign post = page %}
   {% if post.tags.size > 0 %}
-    {% capture tags_content %} with <span class="icon-price-tags"></span>: {% endcapture %}
+    {% capture tags_content %} Posted with <span class="icon-price-tags"></span>: {% endcapture %}
     {% for post_tag in post.tags %}
       {% assign tag = site.my_tags | where: "slug", post_tag %}
       {% if tag %}
@@ -31,7 +31,7 @@ post_class: post-template
             <h2 class="post-title">{{ page.title }}</h2>
             <section class="post-meta">
                 <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
-				{{ page.categories | array_to_sentence_string | prepend: 'Posted in ' }}{{ tags_content }}
+				{{ tags_content }}
             </section>
         </header>
         <section class="post-content">

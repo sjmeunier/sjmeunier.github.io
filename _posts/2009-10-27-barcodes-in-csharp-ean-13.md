@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: EAN-13"
 date:   2009-10-27 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The EAN-13 barcode format is the standard barcode used on everyday products across the world, except in the US, where the UPC-A barcode is more popular.

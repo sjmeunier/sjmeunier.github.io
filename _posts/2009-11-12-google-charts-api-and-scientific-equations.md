@@ -18,7 +18,7 @@ This is an undocumented feature so the documentation from Google on this is rath
 and the code required to create it is
 
 {% highlight html %}
-&lt;img src="http://chart.apis.google.com/chart?cht=tx&amp;&amp;chf=bg,s,FFFFFF00&amp;chco=000000&amp;chl=\[\left(\!\!\!\begin{array}{c}n \\r\end{array}\!\!\!\right) = {n}C_r = \frac{n!}{r!(n-r)!}\]"/&gt;
+<img src="http://chart.apis.google.com/chart?cht=tx&amp;&amp;chf=bg,s,FFFFFF00&amp;chco=000000&amp;chl=\[\left(\!\!\!\begin{array}{c}n \\r\end{array}\!\!\!\right) = {n}C_r = \frac{n!}{r!(n-r)!}\]">
 {% endhighlight %}
 
 The _chf_ parameter sets the background colour of the resulting image, and _chco_ controls the foreground colour. The actual latex code is specified in the _chl_ parameter, which can be any valid latex code. The possibilities for this are endless.

@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: UPC-2"
 date:   2009-10-27 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 UPC-2 is a simpler variation of the [UPC-5 barcode](/programming/2009/10/barcodes-in-csharp-upc-5) designed to contain 2 digits of data.

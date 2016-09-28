@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 1 - Inverting an image"
 date:   2010-01-19 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 This is the first part of my series on image processing, and to start off with, I will cover a relatively easy topic - how to invert the colours of an image. The full source used in the series is available from [https://github.com/sjmeunier/image-processor](https://github.com/sjmeunier/image-processor).

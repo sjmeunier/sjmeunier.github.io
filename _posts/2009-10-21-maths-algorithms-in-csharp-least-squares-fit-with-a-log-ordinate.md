@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Least Squares Fit With a Log Ordinate"
 date:   2009-10-21 00:00:08
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 We have already looked at the linear least squares fit, but that does not always produces a nice fit to the data. The least squares fit with a log ordinate tries to match up the data to the equation y = B * 10<sup>M<sup>x</sup></sup> using the least squares method.

@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 13 - Colour Filters"
 date:   2010-01-19 00:00:13
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Implementing a colour filter is a rather simple affair. All a colour filter will do is specify the percentage of red, green and blue to leave in the image. So, for example, if you would like to see only the green component, then you keep the green component of each pixel unchanged, and set the blue and red components to 0.

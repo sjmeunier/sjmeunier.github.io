@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Plasma Fractals"
 date:   2009-09-30 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 Plasma fractals generate images based on random varying of vlaues across the image, allowing for vairations which include plasma, terrain or cloud-like images.

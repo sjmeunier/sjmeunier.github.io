@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Brownian Motion"
 date:   2009-09-30 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 Brownian motion is described by an essentially random motion, which, one of the most famous examples is the movement of a speck of dust floating on the surface of a glass of water.

@@ -3,7 +3,7 @@ layout: post
 title:  "Solving Quadratic Equations in C#"
 date:   2009-10-23 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 Finding the roots of a quadratic equation (which is where it crosses the x axis) can be a rather involved calculation. I remember in school having to do them, and the equations they gave usually worked out to nice numbers. Often in the real world, it is not quite so easy.

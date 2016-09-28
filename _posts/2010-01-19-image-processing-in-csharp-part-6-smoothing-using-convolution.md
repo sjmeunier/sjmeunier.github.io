@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 6 - Smoothing Using Convolution"
 date:   2010-01-19 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Smoothing, which is just a type of blurring is based on a concept called convolution. How this works is that you take a square section of pixels, often 3x3 but can be any size, although the larger you make the grid, the less pixels that will get affected by the effect around the edges.

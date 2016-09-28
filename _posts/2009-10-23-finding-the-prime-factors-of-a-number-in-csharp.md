@@ -3,7 +3,7 @@ layout: post
 title:  "Finding the Prime Factors of a Number in C&#35;"
 date:   2009-10-23 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 A prime number is any number that can only be evenly divided by itself and 1. So for example 2, 3 and 5 are prime, but 6 and 9 are not.

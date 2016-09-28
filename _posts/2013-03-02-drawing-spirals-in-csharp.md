@@ -3,7 +3,7 @@ layout: post
 title:  "Drawing Spirals in C#"
 date:   2013-03-02 00:00:00
 categories: Programming
-tags: [c-sharp, tutorials, graphics]
+tags: [c-sharp, tutorials, graphics, programming]
 ---
 
 Spirals are a relatively easy shape to draw, but in order to draw a good spiral we need a bit of simple trigonometry.

@@ -3,7 +3,7 @@ layout: post
 title:  "Finding the Distance Between Two GPS Coordinates"
 date:   2009-10-08 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, geodesy, maths]
+tags: [c-sharp, tutorials, geodesy, maths, programming]
 ---
 
 With the advent of GPS systems, adn mapping systems like Google Earth, it has become rather useful to be able to calculate the distance (as the crow flies) between two points on the earth.

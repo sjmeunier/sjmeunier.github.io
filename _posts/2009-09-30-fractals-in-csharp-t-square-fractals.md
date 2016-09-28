@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: T-Square Fractals"
 date:   2009-09-30 00:00:05
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 A T-Square fractal is a relatively simple affair.

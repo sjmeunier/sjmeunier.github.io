@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 12 - Decreasing the Colour Depth"
 date:   2010-01-19 00:00:12
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Decreasing the colour depth involves converting colour values to standard values.

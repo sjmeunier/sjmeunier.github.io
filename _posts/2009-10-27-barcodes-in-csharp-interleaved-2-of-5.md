@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: Interleaved 2 of 5"
 date:   2009-10-27 00:00:08
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The interleaved 2 of 5 barcode uses an scheme which alternates using bars and spaces to encode data with narrow and wide bars (or spaces). The encoding is further split up into odd and even encodings.

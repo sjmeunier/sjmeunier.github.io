@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 11 - Getting That Old-time Effect with Sepia"
 date:   2010-01-19 00:00:11
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Back in the old days, and here I am talking about the 19th century old days, it was very common to apply a sepia tinting to photographs. This was a chemical process, which preserved the photos for longer, although it was also used for its aesthetic appeal. These days, with digital photograpy, we don't need to preserve photos like in those early days, but it still does give a nice warm tone to a photo, and is great for making a modern photo appear old-fashioned.

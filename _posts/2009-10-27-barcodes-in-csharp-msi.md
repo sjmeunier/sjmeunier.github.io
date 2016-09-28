@@ -3,7 +3,7 @@ layout: post
 title:  "Barcodes in C#: MSI"
 date:   2009-10-27 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, barcodes]
+tags: [c-sharp, tutorials, barcodes, programming]
 ---
 
 The MSI barcode, which also goes by the name of the Modified Plessey barcode is mainly used for inventory control in places such as warehouses.

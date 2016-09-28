@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 4 - Contrast"
 date:   2010-01-19 00:00:04
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Contrast in a picture is a measure of how close the range of colours in a picture are. The closer the colours are together, the lower the contrast.

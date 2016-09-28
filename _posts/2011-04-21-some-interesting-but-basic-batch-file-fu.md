@@ -3,7 +3,7 @@ layout: post
 title:  "Some Interesting (But Basic) Batch-file Fu"
 date:   2011-04-21 00:00:00
 categories: Programming
-tags: [windows, tutorials]
+tags: [windows, tutorials, programming]
 ---
 
 I haven't made much use of Windows batch files for many, many years. I just haven't had a need for it, but I learnt a few interesting titbits of Batch file use that I never really knew before today.

@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Least Squares Fit With a Log Abcissa"
 date:   2009-10-21 00:00:09
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 This algorithm for the least squares fit uses a logarithmic abscissa, and tries to find an equation matching the data set with the form y = M * log(X)/log(10) + B, using the least squares method.

@@ -3,7 +3,7 @@ layout: post
 title:  "My First Android App - A Dutch Public Holiday App"
 date:   2011-02-24 00:00:00
 categories: Programming
-tags: [android, java]
+tags: [android, java, programming]
 ---
 
 Having my own Android-based phone now, I have been unable to resist the temptation to try my hand at writing an app for it. Deciding on what app I should write, however, required a bit of thinking.

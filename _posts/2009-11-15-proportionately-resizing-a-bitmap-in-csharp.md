@@ -3,7 +3,7 @@ layout: post
 title:  "Proportionately Resizing A Bitmap in C&#35;"
 date:   2009-11-15 00:00:00
 categories: Programming
-tags: [c-sharp, tutorials]
+tags: [c-sharp, tutorials, programming, graphics]
 ---
 
 Resizing a bitmap and keeping the sides proportions intact - in other words keeping the same aspect ratio, we need to specify a maximum width and maximum height.

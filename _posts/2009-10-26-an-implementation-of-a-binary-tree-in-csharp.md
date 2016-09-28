@@ -3,7 +3,7 @@ layout: post
 title:  "An Implementation of a Binary Tree in C#"
 date:   2009-10-26 00:00:01
 categories: Programming
-tags: [c-sharp, tutorials, algorithms]
+tags: [c-sharp, tutorials, algorithms, programming]
 ---
 
 Binary trees are a very useful data structure, and are used in things like data storage, and parsing of mathematical expressions. Implementing a binary tree is C# is not hard at all.

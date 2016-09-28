@@ -3,7 +3,7 @@ layout: post
 title:  "My Experimentation With Android"
 date:   2013-02-05 00:00:00
 categories: Programming
-tags: [android, java]
+tags: [android, java, programming]
 ---
 
 Recently I decided to experiment a bit more with developing Android applications. I had played around with Android a rather long while ago, creating two rather simple apps - Dutch Public Holidays and Plasmatic, but decided to look at it again.

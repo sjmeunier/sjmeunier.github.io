@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 2 - Converting an Image to Greyscale"
 date:   2010-01-19 00:00:02
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 
 Converting an image to greyscale is a relatively easy effect to apply to an image. For each pixel in the image, we take the three colour components (red, green and blue), and then combine the values.

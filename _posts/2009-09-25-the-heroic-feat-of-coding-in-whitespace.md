@@ -3,7 +3,7 @@ layout: post
 title:  "The Heroic Feat of Coding in Whitespace"
 date:   2009-09-25 00:00:00
 categories: Programming
-tags: [esoteric-languages]
+tags: [esoteric-languages, programming]
 ---
 
 I have encountered one of the world’s most unreadable programming language: [Whitespace](https://en.wikipedia.org/wiki/Whitespace_%28programming_language%29). It is not your conventional language by any stretch of the imagination.

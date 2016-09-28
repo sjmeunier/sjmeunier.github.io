@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Mandelbrot Set"
 date:   2009-09-30 00:00:06
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 Of all the fractals around, the Mandelbrot set is one of the most famous, largely because it creates quite a complex and beautiful image. In my view anyway.

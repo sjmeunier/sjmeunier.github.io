@@ -3,7 +3,7 @@ layout: post
 title:  "Image Processing in C#: Part 10 - Embossing"
 date:   2010-01-19 00:00:10
 categories: Programming
-tags: [c-sharp, tutorials, image-processing]
+tags: [c-sharp, tutorials, image-processing, programming]
 ---
 One of the most striking effects to apply to an image is embossing. This is effect is a form of edge-detection, and is also done using convolution, which you can read more about on my post on [smoothing using convolution](/programming/2010/01/19/image-processing-in-csharp-part-6-smoothing-using-convolution.html).
 

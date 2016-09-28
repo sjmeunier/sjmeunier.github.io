@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: The Lorenz Attractor"
 date:   2009-09-30 00:00:09
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 The Lorenz attractor is a fractal based on the Lorenz oscillator, which is a 3-dimensional chaotic system.

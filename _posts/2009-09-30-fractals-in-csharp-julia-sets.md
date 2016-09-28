@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Julia Sets"
 date:   2009-09-30 00:00:07
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 Julia sets are very similar to Mandelbrot sets, and if you have not yet looked at my post on generating [Mandelbrot sets](/programming/2009/09/fractals-in-csharp-mandelbrot-set), then I suggest you take a look. Most of the background is the same.

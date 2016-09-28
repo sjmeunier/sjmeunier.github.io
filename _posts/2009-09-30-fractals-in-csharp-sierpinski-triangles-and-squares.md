@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Sierpinski Triangles and Squares"
 date:   2009-09-30 00:00:02
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 ![Sierpinski Triangles](/assets/images/blog/fractals/sierpinskitriangles.jpg){: .shadow-image .right } Sierpinski triangles and squares are relatively easy fractals to draw, and although the principle is the same I will handle the two separately.

@@ -3,7 +3,7 @@ layout: post
 title:  "How to Dump a Javascript Object"
 date:   2009-11-15 00:00:00
 categories: Programming
-tags: [javascript, tutorials]
+tags: [javascript, tutorials, programming, web]
 ---
 
 When trying to debug Javascript, objects can be a real pain, since trying to determine the value of the entire contents of the object is not entirely easy. You can access individual components of the object is quite straightforward, but more often than not, the structure of the whole object is much more useful than individual components.

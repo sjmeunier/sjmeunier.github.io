@@ -3,7 +3,7 @@ layout: post
 title:  "Maths Algorithms in C#: Least Squares Fit Using Full Logs"
 date:   2009-10-21 00:00:10
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 We have already looked at several other ways of doing a least squares fit to find an quation representing a set of data. We now look at the least squares fit using full logs, which tries to match the data with the equation y = B*x<sup>M</sup>, using the least squares method.

@@ -3,7 +3,7 @@ layout: post
 title:  "Fractals in C#: Fern Fractals"
 date:   2009-09-30 00:00:03
 categories: Programming
-tags: [c-sharp, tutorials, fractals]
+tags: [c-sharp, tutorials, fractals, programming]
 ---
 
 Fern fractals are another class of iterative fractals, a type of iterative function system, that draws rather good images of ferns. And with a bit of tweaking of the input variables, the ferns of various sizes and shapes can be created using the same code.

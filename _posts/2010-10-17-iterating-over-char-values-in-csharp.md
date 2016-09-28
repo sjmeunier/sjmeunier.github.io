@@ -3,7 +3,7 @@ layout: post
 title:  "Iterating Over Char Values in C#"
 date:   2010-10-17 00:00:00
 categories: Programming
-tags: [c-sharp, tutorials]
+tags: [c-sharp, tutorials, programming]
 ---
 
 In C&#35;, the **char** data type represents a text character. Internally though, this value is pretty much a numeric value.

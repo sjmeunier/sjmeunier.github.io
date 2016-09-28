@@ -3,7 +3,7 @@ layout: post
 title:  "Combinations, Permutations and Factorials in C#"
 date:   2009-10-23 00:00:05
 categories: Programming
-tags: [c-sharp, tutorials, maths]
+tags: [c-sharp, tutorials, maths, programming]
 ---
 
 Factorials are defined as a number that is multiplied by every positive number below it, and is denoted by an exclamation mark, ie _n! = n * (n – 1) * (n – 2) … 2 * 1_.
