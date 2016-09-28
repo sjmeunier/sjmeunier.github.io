@@ -39,6 +39,7 @@ title: Tutorials
 * [Combinations, Permutations and Factorials in C&#35;](/programming/2009/10/23/combinations-permutations-and-factorials-in-csharp.html)
 * [Finding the Prime Factors of a Number in C&#35;](/programming/2009/10/23/finding-the-prime-factors-of-a-number-in-csharp.html)
 * [Finding the Greatest Common Devisor in C&#35;](/programming/2009/10/23/finding-the-greatest-common-devisor-in-csharp.html)
+* [A Mathematical Graphing Application in C&#35;](/programming/2009/10/29/a-mathematical-graphing-application-in-csharp.html)
 
 ### Barcodes in C&#35;
 * [EAN-13](/programming/2009/10/27/barcodes-in-csharp-ean-13.html)

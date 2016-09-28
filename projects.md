@@ -18,6 +18,7 @@ I have dabbled in many hobby projects over the years. Here are some of the most 
 * [Noise Generator](https://github.com/sjmeunier/noise-generator) - A simple tone generator written in C&#35;.
 * [FitsEdit](https://github.com/sjmeunier/fitsedit) - A simple Fits graphic file editor.
 * [Barcoder](https://github.com/sjmeunier/barcoder) - A barcode encoder written in .NET.
+* [Grapher](https://github.com/sjmeunier/grapher) - A mathematical graphing utility.
 
 ### Android
 * [Scientific Name Search](https://github.com/sjmeunier/scientific-name-search) - An application which uses a web API to search for scientific names of plants and animals.
