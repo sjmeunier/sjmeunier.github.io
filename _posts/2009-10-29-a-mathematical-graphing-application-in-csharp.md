@@ -182,4 +182,4 @@ namespace EquationGrapher
 
 The full source code is available at [https://github.com/sjmeunier/grapher](https://github.com/sjmeunier/grapher).
 
-_Originally posted on my old blog, Smoky Cogs, on 29 Oct 30 Sep 2009_
+_Originally posted on my old blog, Smoky Cogs, on 29 Oct 2009_
