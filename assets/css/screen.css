@@ -491,11 +491,11 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .tagcloud h3,
-.related-post h3 {
+.related-posts h3 {
 	text-align: center;
 }
 
-.related-post h3 {
+.related-posts h3 {
 	margin-top: 2rem;
 
 	}
