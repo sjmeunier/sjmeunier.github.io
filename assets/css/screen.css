@@ -759,7 +759,11 @@ margin on the iframe, cause it breaks stuff. */
     animation-delay: 0.1s;
 }
 
-
+.related-post {
+	border-top: #EBF2F6 1px solid;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
