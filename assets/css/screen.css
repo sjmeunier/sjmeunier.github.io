@@ -499,11 +499,11 @@ margin on the iframe, cause it breaks stuff. */
 	margin-top: 4rem;
 }
 	
-.related-post ul li {
+.related-posts ul li {
 	margin: 0px;
 }
 
-.related-post ul li a {
+.related-posts ul li a {
 	color: #333;
     text-decoration: none;
 }

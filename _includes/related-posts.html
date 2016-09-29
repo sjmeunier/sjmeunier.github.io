@@ -1,6 +1,19 @@
 <h3>Related Posts</h3>
 <ul>
-{% for post in site.related_posts limit:5 %}
+{% assign postcount = 0 %}
+{% for post in site.related_posts  %}
+  {% assign match = false %}
+  {% for category in post.categories %}
+    {% if page.categories contains category %}
+      {% assign match = true %}
+    {% endif %}
+  {% endfor %}
+  {% if match %}
+	{% assign postcount = postcount + 1 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}   
+  {% if postcount == 5 }
+	{% break %}
+  {% endif %}
 {% endfor %}
 </ul>
