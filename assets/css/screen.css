@@ -399,7 +399,7 @@ pre {
     padding: 10px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.9em;
-    white-space: pre;
+    white-space: nowrap;
     overflow: auto;
     background: #F7FAFB;
     border-radius: 3px;
