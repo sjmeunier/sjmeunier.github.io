@@ -13,10 +13,10 @@ Before explaining about the font, let's first talk about sub-pixel rendering. Su
 In an LCD screen, these three sub-pixels, coloured red, green and blue, are laid out horizontally, repeating for each whole pixel on-screen, as indicated below.
 <center>
 <table style="border: 1px solid #000000;">
-<tr><td style="width: 10px; color: #ff0000;">&nbsp;</td><td style="width: 10px; color: #00ff00;">&nbsp;</td><td style="width: 10px; color: #0000ff;">&nbsp;</td></tr>
-<tr><td style="width: 10px; color: #ff0000;">&nbsp;</td><td style="width: 10px; color: #00ff00;">&nbsp;</td><td style="width: 10px; color: #0000ff;">&nbsp;</td></tr>
-<tr><td style="width: 10px; color: #ff0000;">&nbsp;</td><td style="width: 10px; color: #00ff00;">&nbsp;</td><td style="width: 10px; color: #0000ff;">&nbsp;</td></tr>
-<table>
+<tr><td style="width: 10px; background-color: #ff0000;">&nbsp;</td><td style="width: 10px; background-color: #00ff00;">&nbsp;</td><td style="width: 10px; background-color: #0000ff;">&nbsp;</td></tr>
+<tr><td style="width: 10px; background-color: #ff0000;">&nbsp;</td><td style="width: 10px; background-color: #00ff00;">&nbsp;</td><td style="width: 10px; background-color: #0000ff;">&nbsp;</td></tr>
+<tr><td style="width: 10px; background-color: #ff0000;">&nbsp;</td><td style="width: 10px; background-color: #00ff00;">&nbsp;</td><td style="width: 10px; background-color: #0000ff;">&nbsp;</td></tr>
+</table>
 </center>
 
 By using one of these three individual colours we can then draw onscreen at resolutions higher than a whole pixel. This technique is used to create the 1x5 pixel font. Using the sub-pixel rendering, we are able to create a font which, in effect, is 3 pixels wide and 5 pixels high, while only using 1 physical pixel width.
@@ -26,6 +26,7 @@ The version of the font demonstrated on Distractionware was written in C++, so I
 ![Microfont app](/assets/images/blog/microfont-app.png){: .shadow-image .centered }
 
 And by zooming in on the output
+
 ![Enlarged font](/assets/images/blog/microfont-enlarged.png){: .shadow-image .centered }
 
 As you can see, the results are (just barely) readable. It is not the most practical of fonts, but the technique does produce results surprisingly more legible than you would expect.
