@@ -11,41 +11,37 @@ We have already looked at the linear least squares fit, but that does not always
 In the code below, if there is no solution, the function returns M and B as 0.
 
 {% highlight csharp %}
-public static void LeastSquaresFitLogOrdinate(Pnt[] points, int numPoints, ref double M, ref double B)  
-{  
-    //Gives best fit of data to curve Y = B*(10^M)^X  
-  
-    double x1, y1, xy, x2, J, LY;  
-    int i;  
-  
-    x1 = 0.0;  
-    y1 = 0.0;  
-    xy = 0.0;  
-    x2 = 0.0;  
-  
-    for (i = 0; i < numPoints; i++)  
-    {  
-        LY = Math.Log10(points[i].Y);  
-        x1 = x1 + points[i].X;  
-        y1 = y1 + LY;  
-        xy = xy + points[i].X * LY;  
-        x2 = x2 + points[i].X * points[i].X;  
-    }  
-  
-    J = ((double)numPoints * x2) - (x1 * x1);  
-    if (J != 0.0)  
-    {  
-        M = (((double)numPoints * xy) - (x1 * y1)) / J;  
-        M = Math.Floor(1.0E3 * M + 0.5) / 1.0E3;  
-        B = ((y1 * x2) - (x1 * xy)) / J;  
-        B = Math.Floor(1.0E3 * B + 0.5) / 1.0E3;  
-    }  
-    else  
-    {  
-        M = 0;  
-        B = 0;  
-    }  
-}  
+public static void LeastSquaresFitLogOrdinate(List<Point> points, ref double m, ref double b)
+{
+	double x1, y1, xy, x2, j, ly;
+
+	x1 = y1 = xy = x2 = 0.0;
+
+	foreach (Point point in points)
+	{
+		ly = Math.Log10(point.Y);
+		x1 += point.X;
+		y1 += ly;
+		xy += point.X * ly;
+		x2 += point.X * point.X;
+	}
+
+	j = (points.Count * x2) - (x1 * x1);
+	if (j != 0.0)
+	{
+		m = ((points.Count * xy) - (x1 * y1)) / j;
+		b = ((y1 * x2) - (x1 * xy)) / j;
+	}
+	else
+	{
+		m = 0;
+		b = 0;
+	}
+}
 {% endhighlight %}
 
-_Originally posted on my old blog, Smoky Cogs, on 21 Oct 2009_
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
+_Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

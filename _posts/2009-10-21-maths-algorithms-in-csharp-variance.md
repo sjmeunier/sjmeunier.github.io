@@ -11,25 +11,40 @@ I talked a bit about variance in the post on [standard deviation](/programming/2
 The variance is obtained by calculating the data set consisting of each data point in the original data set subtracting the arithmetic mean for the data set, and then squaring it.
 
 We then take the arithmetic mean of the deviations, which gives us the variance for our data set.
+<!--more-->
 
 {% highlight csharp %}
-public static double Variance(double[] data, int items)  
-{  
-    int i;  
-    double variance;  
-    double[] deviation = new double[items];  
-  
-    mean = ArithmeticMean(data, items);  
-  
-    for (i = 0; i < items; i++)  
-    {  
-        deviation[i] = Math.Pow((data[i] - mean), 2);  
-    }  
-  
-    variance = ArithmeticMean(deviation, items);  
-  
-    return variance;  
-}  
+public static double StandardDeviation(List<double> values)
+{
+	double standardDeviation, mean, deviationMean;
+	List<double> deviation = new List<double>();
+	
+	mean = ArithmeticMean(values);
+
+	foreach(double value in values)
+	{
+		deviation.Add(Math.Pow((value - mean), 2));
+	}
+
+	deviationMean = ArithmeticMean(deviation);
+	standardDeviation = Math.Sqrt(deviationMean);
+
+	return standardDeviation;
+}
+		
+public static double Variance(List<double> values)
+{
+	double standardDeviation, variance;
+
+	standardDeviation = StandardDeviation(values);
+	variance = Math.Pow(standardDeviation, 2);
+
+	return variance;
+}
 {% endhighlight %}
 
-_Originally posted on my old blog, Smoky Cogs, on 21 Oct 2009_
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
+_Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

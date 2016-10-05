@@ -33,13 +33,13 @@ namespace MathLib
 
     public class Complex
     {
-        public double re;
-        public double im;
+        public double Real;
+        public double Imaginary;
 
-        public Complex(double pdReal, double pdImaginary)
+        public Complex(double real, double imaginary)
         {
-            re = pdReal;
-            im = pdImaginary;
+            Real = real;
+            Imaginary = imaginary;
         }
 
         public static Complex operator ^(Complex arg1, int arg2)
@@ -62,67 +62,73 @@ namespace MathLib
             }
         }
 
+
         public static Complex operator +(Complex arg1, Complex arg2)
         {
-            return (new Complex(arg1.re + arg2.re, arg1.im + arg2.im));
+            return (new Complex(arg1.Real + arg2.Real, arg1.Imaginary + arg2.Imaginary));
         }
 
         public static Complex operator -(Complex arg1)
         {
-            return (new Complex(-arg1.re, -arg1.im));
+            return (new Complex(-arg1.Real, -arg1.Imaginary));
         }
 
         public static Complex operator -(Complex arg1, Complex arg2)
         {
-            return (new Complex(arg1.re - arg2.re, arg1.im - arg2.im));
+            return (new Complex(arg1.Real - arg2.Real, arg1.Imaginary - arg2.Imaginary));
         }
 
         public static Complex operator *(Complex arg1, Complex arg2)
         {
-            return (new Complex(arg1.re * arg2.re - arg1.im * arg2.im, arg1.re * arg2.im + arg2.re * arg1.im));
+            return (new Complex(arg1.Real * arg2.Real - arg1.Imaginary * arg2.Imaginary, arg1.Real * arg2.Imaginary + arg2.Real * arg1.Imaginary));
         }
 
         public static Complex operator /(Complex arg1, Complex arg2)
         {
             double c1, c2, d;
-            d = arg2.re * arg2.re + arg2.im * arg2.im;
+            d = arg2.Real * arg2.Real + arg2.Imaginary * arg2.Imaginary;
             if (d == 0)
             {
                 return (new Complex(0, 0));
             }
-            c1 = arg1.re * arg2.re + arg1.im * arg2.im;
-            c2 = arg1.im * arg2.re - arg1.re * arg2.im;
+            c1 = arg1.Real * arg2.Real + arg1.Imaginary * arg2.Imaginary;
+            c2 = arg1.Imaginary * arg2.Real - arg1.Real * arg2.Imaginary;
             return (new Complex(c1 / d, c2 / d));
         }
 
         public double Abs()
         {
-            return (Math.Sqrt(re * re + im * im));
+            return (Math.Sqrt(Real * Real + Imaginary * Imaginary));
         }
 
         //Arg of complex number in degrees
         public double Arg()
         {
             double ret = 0;
-            if (re != 0)
-                ret = (180 / Math.PI) * Math.Atan(im / re);
+            if (Real != 0)
+                ret = (180 / Math.PI) * Math.Atan(Imaginary / Real);
             return (ret);
            
         }
 
+        
+
         public override string ToString()
         {
-            return (String.Format("Complex: ({0}, {1})", re, im));
+            return (String.Format("Complex: ({0}, {1})", Real, Imaginary));
         }
 
         public string ToComplexString(int iRounding)
         {
-            string ComplexNumber = Convert.ToString(Math.Round(re, iRounding)) + "+" + Convert.ToString(Math.Round(im, iRounding)) + "i";
+            string ComplexNumber = Convert.ToString(Math.Round(Real, iRounding)) + "+" + Convert.ToString(Math.Round(Imaginary, iRounding)) + "i";
             return ComplexNumber;
         }
     }
 }
-
 {% endhighlight %}
 
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
 _Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

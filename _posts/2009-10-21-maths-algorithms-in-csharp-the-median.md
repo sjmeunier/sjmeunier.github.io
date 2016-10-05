@@ -11,31 +11,30 @@ The median is defined as the data point that falls exactly at the midpoint of a 
 There is one consideration though – the data points sent through to this function needs to be sorted, otherwise it will return garbage data.
 
 {% highlight csharp %}
-public static double Median(double[] data, int items)  
-{  
-    int midPoint;  
-    double median, sum;  
-  
-    sum = 0.0;  
-  
-    if (((int)Math.Round((double)items / 2.0) * 2) != items)  
-    {  
-        midPoint = items / 2;  
-  
-  
-        sum  = data[midPoint];  
-        sum  += data[midPoint + 1];  
-        sum /= 2.0;  
-    }  
-    else  
-    {  
-        midPoint = (items / 2) + 1;  
-        sum = data[midPoint];  
-    }  
-      
-    median = sum;  
-    return median;  
-}  
+public static double Median(List<double> values)
+{
+	int mid;
+	double median;
+
+	values.Sort();
+
+	if (MathExt.IsEven(values.Count))
+	{
+		mid = (values.Count / 2) - 1;
+		median = (values[mid] + values[mid + 1]) / 2.0;
+	}
+	else
+	{
+		mid = (values.Count / 2);
+		median = values[mid];
+	}
+
+	return median;
+}
 {% endhighlight %}
 
-_Originally posted on my old blog, Smoky Cogs, on 21 Oct 2009_
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
+_Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

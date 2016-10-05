@@ -31,24 +31,28 @@ _C = n! / r!(n - r)!_
 Here is the code to calculate this. The MathExt class is just the name of the class containing these functions, so you can replace that with wherever you have defined the factorial function.
 
 {% highlight csharp %}
-public static int Combination(int n, int r)  
-{  
-    int Comb = 0;  
-    Comb = (int)(MathExt.Factorial(n) / (MathExt.Factorial(r) * MathExt.Factorial(n - r)));  
-    return Comb;  
-} 
+public static int Combination(int n, int r)
+{
+	int Comb = 0;
+	Comb = (int)(MathExt.Factorial(n) / (MathExt.Factorial(r) * MathExt.Factorial(n - r)));
+	return Comb;
+}
 {% endhighlight %}
 
 Permutations are a little simpler than combinations. In this case, you still selecting r items out of a set of n items, however, you are able to pull out the same item more than once. Much like pulling a name out of a hat, and then putting it back in before putting another name out of the hat.
 _C = n! / (n - r)!_
 
 {% highlight csharp %}
-public static int Permutation(int n, int r)  
-{  
-    int Perm = 0;  
-    Perm = (int)(MathExt.Factorial(n) / MathExt.Factorial(n - r));  
-    return Perm;  
-}  
+public static int Permutation(int n, int r)
+{
+	int Perm = 0;
+	Perm = (int)(MathExt.Factorial(n) / MathExt.Factorial(n - r));
+	return Perm;
+}
 {% endhighlight %}
 
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
 _Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

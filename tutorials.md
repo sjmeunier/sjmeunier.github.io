@@ -30,6 +30,7 @@ title: Tutorials
 * [Least Squares Fit With a Log Ordinate](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-with-a-log-ordinate.html)
 * [Least Squares Fit With a Log Abcissa](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-with-a-log-abcissa.html)
 * [Least Squares Fit Using Full Logs](/programming/2009/10/21/maths-algorithms-in-csharp-least-squares-fit-using-full-logs.html)
+* [Generating a Random Normal Distribution Set](/programming/2016/10/05/maths-algorithms-in-csharp-generating-a-random-normal-distribution-set.html)
 
 #### General
 * [Vectors](/programming/2009/10/23/vectors.html)
@@ -38,7 +39,7 @@ title: Tutorials
 * [Solving Quadratic Equations on C&#35;](/programming/2009/10/23/solving-quadratic-equations-in-csharp.html)
 * [Combinations, Permutations and Factorials in C&#35;](/programming/2009/10/23/combinations-permutations-and-factorials-in-csharp.html)
 * [Finding the Prime Factors of a Number in C&#35;](/programming/2009/10/23/finding-the-prime-factors-of-a-number-in-csharp.html)
-* [Finding the Greatest Common Devisor in C&#35;](/programming/2009/10/23/finding-the-greatest-common-devisor-in-csharp.html)
+* [Finding the Greatest Common Devisor in C&#35;](/programming/2009/10/23/finding-the-greatest-common-divisor-in-csharp.html)
 * [A Mathematical Graphing Application in C&#35;](/programming/2009/10/29/a-mathematical-graphing-application-in-csharp.html)
 
 ### Barcodes in C&#35;

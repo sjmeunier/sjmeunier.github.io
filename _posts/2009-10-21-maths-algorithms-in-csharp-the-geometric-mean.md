@@ -11,20 +11,23 @@ The geometric mean is similar to the arithmetic mean in that it is a type of ave
 The geometric mean is defined as the n-th root of the product of each value in the data set, where n is the number of data points in the set. This makes it useful for describing things such as percentage growth.
 
 {% highlight csharp %}
-public static double GeometricMean(double[] data, int items)  
-{  
-    int i;  
-    double GMean, prod;  
-  
-    prod = 1.0;  
-  
-    for (i = 0; i < items; i++)  
-    {  
-        prod  *= data[i];  
-    }  
-    GMean =  Math.Pow(prod, (1.0 / (double)items));  
-    return GMean;  
-}  
+public static double GeometricMean(List<double> values)
+{
+	double geometricMean, product;
+
+	product = 1.0;
+	foreach(double value in values)
+	{
+		product *= value;
+	}
+
+	geometricMean =  Math.Pow(product, (1.0 / (double)values.Count));
+	return geometricMean;
+}
 {% endhighlight %}
 
-_Originally posted on my old blog, Smoky Cogs, on 21 Oct 2009_
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
+_Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_

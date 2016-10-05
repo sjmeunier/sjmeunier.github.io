@@ -17,24 +17,27 @@ Once we have the data set of deviations, we can then find the arithmetic mean of
 The final step here is to find the squareroot of this which gives us the standard deviation.
 
 {% highlight csharp %}
-public static double StandardDeviation(double[] data, int items)  
-{  
-    int i;  
-    double SD, mean, devMean;  
-    double[] deviation = new double[items];  
-      
-    mean = ArithmeticMean(data, items);  
-  
-    for (i = 0; i < items; i++)  
-    {  
-        deviation[i] = Math.Pow((data[i] - mean), 2);  
-    }  
-  
-    devMean = ArithmeticMean(deviation, items);  
-    SD = Math.Sqrt(devMean);  
-  
-    return SD;  
-}  
+public static double StandardDeviation(List<double> values)
+{
+	double standardDeviation, mean, deviationMean;
+	List<double> deviation = new List<double>();
+	
+	mean = ArithmeticMean(values);
+
+	foreach(double value in values)
+	{
+		deviation.Add(Math.Pow((value - mean), 2));
+	}
+
+	deviationMean = ArithmeticMean(deviation);
+	standardDeviation = Math.Sqrt(deviationMean);
+
+	return standardDeviation;
+}
 {% endhighlight %}
 
-_Originally posted on my old blog, Smoky Cogs, on 21 Oct 2009_
+The full sourcecode for the MathLib library is available at [https://github.com/sjmeunier/mathlib](https://github.com/sjmeunier/mathlib)
+
+_Originally posted on my old blog, Smoky Cogs, on 23 Oct 2009_
+
+_Updated 5 Oct 2016: Updated code snippet after refactoring MathLib library_
