@@ -15,6 +15,7 @@ With the parameters of the method, **samples** specifies the number of values to
 The value for accuracy can be any integer greater than 1. The higher the number the better the results, but takes longer to process. I have found good results in the 1000-10000 range in testing, while even going as low as 1 gives acceptable results in osme cases.
 
 So how does the code work?
+<!--more-->
 
 C&#35;'s Random class generates a double between 0.0 and 1.0, which we then add together a number of these randomly generated numbers specified by the accuracy. The higher accuracy we want, the more random numbers we add together. 
 
