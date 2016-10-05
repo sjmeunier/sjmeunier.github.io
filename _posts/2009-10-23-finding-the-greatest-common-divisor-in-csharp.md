@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding the Greatest Common Devisor in C#"
+title:  "Finding the Greatest Common Divisor in C#"
 date:   2009-10-23 00:00:06
 categories: Programming
 tags: [c-sharp, tutorials, maths, programming]
