@@ -25,5 +25,5 @@ I have open-sourced the code, so enjoy playing around with it.
 
 The full source code is available at [https://github.com/sjmeunier/ancestry-web-3d](https://github.com/sjmeunier/ancestry-web-3d).
 
-![AncestryWeb3D](/assets/images/blog/ancestryweb.png){: .shadow-image .centered }
+![AncestryWeb3D](/assets/images/blog/ancestryweb3d.png){: .shadow-image .centered }
 
