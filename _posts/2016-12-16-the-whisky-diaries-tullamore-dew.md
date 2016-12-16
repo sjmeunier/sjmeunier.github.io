@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Whisky Diaries: Tullamore Dew 12 Year Old Single Malt Limited Edition"
+title:  "The Whisky Diaries: Tullamore Dew"
 date:   2016-12-16 19:00:00
 categories: Whisky
 tags: [whisky]
