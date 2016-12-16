@@ -3,7 +3,11 @@ layout: page
 title: The Whisky Diaries
 ---
 
-I love whisky, and in particular, single malts, but tend to only drink them when I have a fellow whisky drinker over, and so after a while I forget what some of the bottles in my collection taste like. To overcome this problem, I have started The Whisky Diaries to document my experiences with the various bottles in my collection. Sit back, and welcome to the ride.
+I love whisky, and in particular, single malts, but tend to only drink them when I have a fellow whisky drinker over, and so after a while I forget what some of the bottles in my collection taste like. To overcome this problem, I have started The Whisky Diaries to document my experiences with the various bottles in my collection. 
+
+I am not a true connoisseur in the sense that I simply enjoy my whisky. You won't find detailed flavour profiles like the pros. Instead just my philistine tongue's opinion of the drink.
+
+Sit back, and welcome to the ride.
 
 The list below is sorted by region and then by preference.
 
