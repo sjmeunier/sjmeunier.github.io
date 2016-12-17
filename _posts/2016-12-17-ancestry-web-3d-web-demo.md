@@ -8,9 +8,7 @@ tags: [c-sharp, unity, genealogy, programming]
 
 Last month, I [posted](https://sjmeunier.github.io/programming/2016/11/06/family-tree-visualisation-with-unity3d.html) about the family tree visualisation app I wrote using Unity. I have now made a lot of improvements, and, in addition, created a web demo as well. 
 
-The web demo allows the app to be demonstrated from within a web browser without having to run it locally. The big disadvantage of the web demo, is that the Unity web player doesn't allow loading of external files, so it cannot be used to load any GEDCOM file, which the desktop application allows you to do.
-
-However, to demonstrate the application, the demo comes pre-loaded with my ancestry.
+The web demo allows the app to be demonstrated from within a web browser without having to run it locally. The big disadvantage of the web demo, is that the Unity web player doesn't allow loading of external files, so it cannot be used to load any GEDCOM file, which the desktop application allows you to do. However, to demonstrate the application, the demo comes pre-loaded with my ancestry.
 
 To navigate through the scene, moving the mouse while left clicking pans the view, while right-clicking rotates the camera. The up and down arrow keys moves the camera forwards and backwards.
 
