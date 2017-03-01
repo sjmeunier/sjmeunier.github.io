@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My First Attempt at Cassini Image Processing"
-date:   2017-02-10 00:00:00
+date:   2017-03-01 00:00:00
 categories: Astronomy
 tags: [astronomy, image-processing, saturn]
 ---
@@ -21,4 +21,3 @@ For comparison, I also created a true colour image from the same perspective fro
 
 I coloured and merged the raw images in Gimp, but didn't need to do much else to get these images. 
 <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
