@@ -9,6 +9,8 @@ I got my first telescope, a 4" Meade reflector, in 2004, and have recently upgra
 
 My main camera is a ZWO ASI120MM monochrome video camera, with an LRGB filter set. 
 
+In addition to my own astrophotography, I also enjoy processing raw images from other sources, such as the Hubble Space Telescope, Herschel and Cassini.
+
 ### My Astrophotography
 
 #### The Moon
@@ -27,6 +29,9 @@ My main camera is a ZWO ASI120MM monochrome video camera, with an LRGB filter se
 
 #### Deep Sky
 * [Messier 15](/astronomy/2016/09/24/messier-15.html)
+
+#### Cassini-Huygens
+* [My First Attempt at Cassini Image Processing](/astronomy/2017/03/01/my-first-attempt-at-cassini-image-processing.html)
 
 ### Other Posts
 * [My Entries for the Hubble Hidden Treasures Image Processing Contest 2012](/astronomy/2012/06/10/my-entries-for-the-hubble-hidden-treasures-image-processing-contest.html)
