@@ -13,10 +13,10 @@ Two sets of images I started with were two galaxies, NGC 4448 and NGC 4490. For 
 
 I then proceeded to artificially colour and merge the images, followed by a little bit of fine-tuning in the images.
 
-NGC 4448
+<center>NGC 4448</center>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/78511972@N04/32558183354/in/album-72157681337866715/" title="NGC 4448 - Spitzer"><img src="https://c1.staticflickr.com/3/2920/32558183354_c6fc64f77d_o.png" class = "shadow-image centered" alt="NGC 4448 - Spitzer"></a>
 
-NGC 4490
+<center>NGC 4490</center>
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/78511972@N04/33245348992/in/album-72157681337866715/" title="NGC 4490 - Spitzer"><img src="https://c1.staticflickr.com/1/621/33245348992_e391b2f705_o.png" class = "shadow-image centered"  alt="NGC 4490 - Spitzer"></a>
 
 <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
