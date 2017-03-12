@@ -9,7 +9,7 @@ The [Spitzer Space Telescope](http://www.spitzer.caltech.edu/) is one of the spa
 
 As with the other NASA space projects, the raw images from the project have been released into the public domain, allowing anyone to process the images further. 
 
-Two sets of images I started with were two galaxies, NGC 4448 and NGC 4490. For both of these images, I used the same process. From the (Spitzer Heritage Archive)[http://sha.ipac.caltech.edu/applications/Spitzer/SHA/], I downloaded a set of images from the IRAC Map instrument, which takes 4 simultaneous exposures at the 3.6μm, 4.5μm, 5.8μm and 8.0μm wavelength bands.
+Two sets of images I started with were two galaxies, NGC 4448 and NGC 4490. For both of these images, I used the same process. From the [Spitzer Heritage Archive](http://sha.ipac.caltech.edu/applications/Spitzer/SHA/), I downloaded a set of images from the IRAC Map instrument, which takes 4 simultaneous exposures at the 3.6μm, 4.5μm, 5.8μm and 8.0μm wavelength bands.
 
 I then proceeded to artificially colour and merge the images, followed by a little bit of fine-tuning in the images.
 
