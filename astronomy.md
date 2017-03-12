@@ -33,6 +33,9 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 #### Cassini-Huygens
 * [My First Attempt at Cassini Image Processing](/astronomy/2017/03/01/my-first-attempt-at-cassini-image-processing.html)
 
+#### Spitzer
+* [My Spitzer Images of NGC 4448 and NGC 4490](/astronomy/2017/03/12/my-spitzer-images-of-ngc4448-and-ngc4490.html)
+
 ### Other Posts
 * [My Entries for the Hubble Hidden Treasures Image Processing Contest 2012](/astronomy/2012/06/10/my-entries-for-the-hubble-hidden-treasures-image-processing-contest.html)
 * [Herschel Image Processing](/astronomy/2012/07/03/herschel-image-processing.html)
