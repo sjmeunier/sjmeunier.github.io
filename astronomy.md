@@ -18,6 +18,7 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 * [Waxing Gibbous Moon - 12 Sep 2016](/astronomy/2016/09/12/moon-12-sep-2016.html)
 * [Full Moon - 22 Mar 2016](/astronomy/2016/03/23/moon-22-mar-2016.html)
 * [Moon at First Quarter - 12 Mar 2016](/astronomy/2016/03/18/moon-12-mar-2016.html)
+* [Moon at First Quarter - 03 Apr 2017](/astronomy/2017/04/04/moon-04-apr-2017.html)
 
 #### The Sun
 * [Transit of Mercury - 9 May 2016](/astronomy/2016/05/09/mercury-transit-09-may-2016.html)
