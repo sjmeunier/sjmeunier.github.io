@@ -3,7 +3,7 @@ layout: post
 title:  "My Spitzer Images of NGC 4448 and NGC 4490"
 date:   2017-03-12 19:00:00
 categories: Astronomy
-tags: [astronomy, image-processing, deep-sky]
+tags: [astronomy, spitzer, image-processing, deep-sky]
 ---
 The [Spitzer Space Telescope](http://www.spitzer.caltech.edu/) is one of the space observatories orbiting the Earth, and specialises in the infrared part of the spectrum. The telescope is run by NASA, and was launched in 2003.
 
