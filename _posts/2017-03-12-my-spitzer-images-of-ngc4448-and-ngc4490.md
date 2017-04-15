@@ -3,13 +3,13 @@ layout: post
 title:  "My Spitzer Images of NGC 4448 and NGC 4490"
 date:   2017-03-12 19:00:00
 categories: Astronomy
-tags: [astronomy, image-processing, deep-sky, spitzer]
+tags: [astronomy, image-processing, deep-sky]
 ---
 The [Spitzer Space Telescope](http://www.spitzer.caltech.edu/) is one of the space observatories orbiting the Earth, and specialises in the infrared part of the spectrum. The telescope is run by NASA, and was launched in 2003.
 
 As with the other NASA space projects, the raw images from the project have been released into the public domain, allowing anyone to process the images further. 
 
-Two sets of images I started with were two galaxies, NGC 4448 and NGC 4490. For both of these images, I used the same process. From the [Spitzer Heritage Archive](http://sha.ipac.caltech.edu/applications/Spitzer/SHA/), I downloaded a set of images from the IRAC Map instrument, which takes 4 simultaneous exposures at the 3.6µm, 4.5µm, 5.8µm and 8.0µm wavelength bands.
+Two sets of images I started with were two galaxies, NGC 4448 and NGC 4490. For both of these images, I used the same process. From the [Spitzer Heritage Archive](http://sha.ipac.caltech.edu/applications/Spitzer/SHA/), I downloaded a set of images from the IRAC Map instrument, which takes 4 simultaneous exposures at the 3.6ï¿½m, 4.5ï¿½m, 5.8ï¿½m and 8.0ï¿½m wavelength bands.
 
 I then proceeded to artificially colour and merge the images, followed by a little bit of fine-tuning in the images.
 
