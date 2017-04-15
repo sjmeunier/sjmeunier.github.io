@@ -3,7 +3,7 @@ layout: post
 title:  "My Entries for the Hubble Hidden Treasures Image Processing Contest"
 date:   2012-06-10 21:00:00
 categories: Astronomy
-tags: [astronomy, image-processing]
+tags: [astronomy, image-processing, hubble]
 ---
 
 The Hubble Space Telescope has taken many awesome shots of the universe, but many of them have only ever been seen by scientists. This is why the Hubble Legacy Archive and European Space Agency announced the [Hubble Hidden Treasures Image Processing Contest](https://www.spacetelescope.org/projects/hiddentreasures/contest/).
