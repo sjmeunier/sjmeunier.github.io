@@ -37,6 +37,7 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 #### Spitzer
 * [My Spitzer Images of NGC 4448 and NGC 4490](/astronomy/2017/03/12/my-spitzer-images-of-ngc4448-and-ngc4490.html)
 * [Spectacular Spitzer Images of a Few Galaxies - NGC 6744, NGC 3198, NGC 4536, NGC 4565, NGC 2775](/astronomy/2017/04/15/spectacular-spitzer-images-of-a-few-galaxies.html)
+* [A Few More Galaxies Caught by Spitzer - NGC 2903, NGC 6221, NGC 3628, NGC 3115](/astronomy/2017/04/18/a-few-more-galaxies-caught-by-spitzer.html)
 
 ### Other Posts
 * [My Entries for the Hubble Hidden Treasures Image Processing Contest 2012](/astronomy/2012/06/10/my-entries-for-the-hubble-hidden-treasures-image-processing-contest.html)
