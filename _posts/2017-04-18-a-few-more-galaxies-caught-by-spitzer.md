@@ -9,7 +9,7 @@ I found a few more gems in the Spitzer archives.
 
 Using the same procedure as I did for my previous images, I, once again used IRAC Map images, with images filtered at the 3.6μm, 4.5μm, 5.8μm and 8.0μm wavelength bands.
 
-I used the same artificial colouring as my previous images, which wer ethen merged.
+I used the same artificial colouring as my previous images, which were then merged.
 
 #### [NGC 2903](https://en.wikipedia.org/wiki/NGC_2903)
 * Barred spiral in Leo
