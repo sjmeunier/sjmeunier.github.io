@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Genealogical-Detective-Story"
+title:  "A Genealogical Detective Story"
 date:   2017-06-20 18:00:00
 categories: Genealogy
 tags: [genealogy]
@@ -65,4 +65,3 @@ The life of the former slaves in Stellenbosch appears to have been very intercon
 I haven't yet found any definitive links to my own ancestry, but I am fairly certain that there is at least some likelihood that there may be some family link. Many of the names in the trail echo the names of some of the known relatives, which I mentioned at the beginning of this post, but cannot say anything for definite.
 
 For now, the search goes on....
-
