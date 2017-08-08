@@ -22,6 +22,7 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 
 #### The Sun
 * [Transit of Mercury - 9 May 2016](/astronomy/2016/05/09/mercury-transit-09-may-2016.html)
+* [Sun Dogs in a Summer Sky](/astronomy/2017/08/08/sun-dogs-in-a-summer-sky.html)
 
 #### Jupiter
 * [Jupiter Colour With Galilean Moons - 25 Mar 2016](/astronomy/2016/03/27/jupiter-25-mar-2016.html)
@@ -30,6 +31,10 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 
 #### Deep Sky
 * [Messier 15](/astronomy/2016/09/24/messier-15.html)
+
+
+
+### Space Mission Image Processing
 
 #### Cassini-Huygens
 * [My First Attempt at Cassini Image Processing](/astronomy/2017/03/01/my-first-attempt-at-cassini-image-processing.html)
@@ -43,5 +48,6 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 * [My Entries for the Hubble Hidden Treasures Image Processing Contest 2012](/astronomy/2012/06/10/my-entries-for-the-hubble-hidden-treasures-image-processing-contest.html)
 * [A shot of NGC 7213 by the Hubble Space Telescope](/astronomy/2017/05/24/a-shot-of-ngc7213-by-the-hubble-space-telescope.html)
 
-### Other Posts
+#### Herschel
 * [Herschel Image Processing](/astronomy/2012/07/03/herschel-image-processing.html)
+
