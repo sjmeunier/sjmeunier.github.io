@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spitzer's View of NGC 1763"
+title:  "Spitzer's View of the Nebula NGC 1763"
 date:   2018-08-30 11:00:00
 categories: Astronomy
 tags: [astronomy, image-processing, deep-sky, spitzer]
