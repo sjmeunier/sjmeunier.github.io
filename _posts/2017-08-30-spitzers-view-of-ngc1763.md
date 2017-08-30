@@ -17,4 +17,6 @@ After applying artificial colouring to each image corresponding to a wavelength 
 
 The image does not include the entire nebula, but does include a few interesting features.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/78511972@N04/35898589133/in/album-72157681337866715/" title="NGC 1763 - Spitzer"><img src="https://farm5.staticflickr.com/4343/35898589133_eb6f995bce_o.png" class = "shadow-image centered" alt="NGC 1763 - Spitzer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/78511972@N04/35898589133/in/album-72157681337866715/" title="NGC 1763 (LHA 120-N 11B) - Spitzer"><img src="https://farm5.staticflickr.com/4343/35898589133_a1d76adfc1_h.jpg" class = "shadow-image centered" alt="NGC 1763 (LHA 120-N 11B) - Spitzer"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
