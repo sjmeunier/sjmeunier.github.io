@@ -23,6 +23,7 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 #### The Sun
 * [Transit of Mercury - 9 May 2016](/astronomy/2016/05/09/mercury-transit-09-may-2016.html)
 * [Sun Dogs in a Summer Sky](/astronomy/2017/08/08/sun-dogs-in-a-summer-sky.html)
+* [Red Sunset in an Orange Sky](/astronomy/2017/10/18/red-sunset-in-an-orange-sky.html)
 
 #### Jupiter
 * [Jupiter Colour With Galilean Moons - 25 Mar 2016](/astronomy/2016/03/27/jupiter-25-mar-2016.html)
@@ -51,4 +52,3 @@ In addition to my own astrophotography, I also enjoy processing raw images from 
 
 #### Herschel
 * [Herschel Image Processing](/astronomy/2012/07/03/herschel-image-processing.html)
-
