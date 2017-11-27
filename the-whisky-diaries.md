@@ -14,11 +14,17 @@ The list below is sorted by region and then by preference.
 ### Scotland
 * [Glendronach 18 Year Old Allardice](/whisky/2016/10/15/the-whisky-diaries-glendronach-18-year-old.html)
 * [Adelphi Collection - Highland Park 26 Year Old](/whisky/2016/12/16/the-whisky-diaries-adelphi-collection-highland-park-26yo.html)
+* [The Balvenie Triple Cask 12 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Macallan 12 Year Old](/whisky/2016/10/14/the-whisky-diaries-macallan-12-year-old.html)
+* [Glen Garioch 1797 Founders Reserve Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Adelphi Collection - Springfield 16 Year Old](/whisky/2016/10/14/the-whisky-diaries-springbank-16-year-old.html)
 * [Talisker Skye](/whisky/2017/09/29/the-whisky-diaries-talisker-skye.html)
+* [Edradour 10 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
+* [Bowmore Islay 12 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
+* [Glen Scotia Double Cask Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 
 ### Ireland
+* [Redbreast 12 Year Old Single Pot Still](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Kilbeggan 8 Year Old Single Grain](/whisky/2016/12/16/the-whisky-diaries-kilbeggan.html)
 * [Tyrconnell Single Malt](/whisky/2016/12/16/the-whisky-diaries-kilbeggan.html)
 * [Tullamore Dew Special Reserve 12 Year Old](/whisky/2016/12/16/the-whisky-diaries-tullamore-dew.html)
