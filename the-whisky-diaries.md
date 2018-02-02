@@ -19,7 +19,9 @@ The list below is sorted by region and then by preference.
 * [Glen Garioch 1797 Founders Reserve Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Adelphi Collection - Springfield 16 Year Old](/whisky/2016/10/14/the-whisky-diaries-springbank-16-year-old.html)
 * [Talisker Skye](/whisky/2017/09/29/the-whisky-diaries-talisker-skye.html)
+* [Dalwhinnie 15 Year Old Single Malt](/whisky/2016/11/01/the-whisky-diaries-dalwhinnie-15-year-old.html)
 * [Edradour 10 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
+* [Glenfiddich 12 Year Old Single Malt](/whisky/2016/11/01/the-whisky-diaries-glenfiddich-12-year-old.html)
 * [Bowmore Islay 12 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Glen Scotia Double Cask Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 

@@ -19,12 +19,18 @@ I have dabbled in many hobby projects over the years. Here are some of the most 
 * [FitsEdit](https://github.com/sjmeunier/fitsedit) - A simple Fits graphic file editor.
 * [Barcoder](https://github.com/sjmeunier/barcoder) - A barcode encoder written in .NET.
 * [Grapher](https://github.com/sjmeunier/grapher) - A mathematical graphing utility.
+* [MicroFont](https://github.com/sjmeunier/microfont) - A very simple app which draws text using a 1x5 pixel font.
 
 ### Android
+* [Arbor Familiae](https://github.com/sjmeunier/arbor-familiae) - A family tree viewer, with several types of charts for Android
 * [Scientific Name Search](https://github.com/sjmeunier/scientific-name-search) - An application which uses a web API to search for scientific names of plants and animals.
 * [Audiogility](https://github.com/sjmeunier/audiogility) - An experimental game written in Java with libgdx, running on Android and PC
 * [Plasmatic](https://github.com/sjmeunier/plasmatic) - An Android cloud fractal generator
 * [Dutch Public Holidays](https://github.com/sjmeunier/dutchpublicholidays) - An app which lists the Dutch public holidays
+
+### [Unity 3D]
+* [Ancestry Web 3D](https://github.com/sjmeunier/ancestry-web-3d) - A Unity app rendering a family tree as a 3D interconnected web, allowing you to fly around the tree
+
 
 ### JavaScript
 * [Elemental](https://github.com/sjmeunier/elemental) - A periodic table of elements, coded in JavaScript, showing off Appecelerator Titanium

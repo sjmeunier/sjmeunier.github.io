@@ -87,3 +87,6 @@ title: Tutorials
 * [Using jQuery to Find JavaScript Events](/programming/2012/05/31/using-jquery-to-find-javascript-events.html)
 * [Faster String concatenation in JavaScript](/programming/2011/04/20/faster-string-concatenation-in-javascript.html)
 * [How to Dump a JavaScript Object](/programming/2009/11/13/how-to-dump-a-javascript-object.html)
+
+#### Java
+* [A Recent Items List in Java](/programming/2018/01/23/a-recent-items-list-in-java.html)
