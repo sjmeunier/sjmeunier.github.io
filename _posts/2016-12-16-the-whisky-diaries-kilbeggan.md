@@ -18,4 +18,4 @@ Next on the list was the Tyrconnell Single Malt. This whisky was quite a bit str
 The Kilbeggan 8 Year Old was, by far, the best Irish whisky we had tasted on my brother's visit. Being a single grain, the flavour profile was very different to most whiskies, and had a very sweet, smooth and accessible feel to it. It drank very well. 
 
 ### Connamara Single Malt
-The last Irish whisky on our menu was the Connamara. The flavour of htis whisky was like none other I had tasted. It was peaty but with a completely different flavour profile to the peaty Scotch whisky that I love so much. The taste was more reminiscent of a sooty chimney than a pleasant smokey hit. This is not a whisky I would try again soon.
+The last Irish whisky on our menu was the Connamara. The flavour of this whisky was like none other I had tasted. It was peaty but with a completely different flavour profile to the peaty Scotch whisky that I love so much. The taste was more reminiscent of a sooty chimney than a pleasant smokey hit. This is not a whisky I would try again soon.
