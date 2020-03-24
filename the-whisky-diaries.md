@@ -14,10 +14,14 @@ The list below is sorted by region and then by preference.
 ### Scotland
 * [Glendronach 18 Year Old Allardice](/whisky/2016/10/15/the-whisky-diaries-glendronach-18-year-old.html)
 * [Adelphi Collection - Highland Park 26 Year Old](/whisky/2016/12/16/the-whisky-diaries-adelphi-collection-highland-park-26yo.html)
+* [Oban West 14 Year Old Single Malt](/whisky/2020/03/22/the-whisky-diaries-a-few-winter-warmers.html)
+* [Aberfeldy 12 Year Old Single Malt](/whisky/2020/03/22/the-whisky-diaries-a-few-winter-warmers.html)
 * [The Balvenie Triple Cask 12 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
 * [Macallan 12 Year Old](/whisky/2016/10/14/the-whisky-diaries-macallan-12-year-old.html)
 * [Glen Garioch 1797 Founders Reserve Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
+* [Chivas Regal 18 Year Old Blend](/whisky/2020/03/22/the-whisky-diaries-a-few-winter-warmers.html)
 * [Adelphi Collection - Springfield 16 Year Old](/whisky/2016/10/14/the-whisky-diaries-springbank-16-year-old.html)
+* [Scapa Skiren Single Malt](/whisky/2020/03/22/the-whisky-diaries-a-few-winter-warmers.html)
 * [Talisker Skye](/whisky/2017/09/29/the-whisky-diaries-talisker-skye.html)
 * [Dalwhinnie 15 Year Old Single Malt](/whisky/2016/11/01/the-whisky-diaries-dalwhinnie-15-year-old.html)
 * [Edradour 10 Year Old Single Malt](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
@@ -27,6 +31,7 @@ The list below is sorted by region and then by preference.
 
 ### Ireland
 * [Redbreast 12 Year Old Single Pot Still](/whisky/2017/11/27/the-whisky-diaries-a-family-tasting.html)
+* [Yellow Spot 12 Year Old Single Pot](/whisky/2020/03/22/the-whisky-diaries-a-few-winter-warmers.html)
 * [Kilbeggan 8 Year Old Single Grain](/whisky/2016/12/16/the-whisky-diaries-kilbeggan.html)
 * [Tyrconnell Single Malt](/whisky/2016/12/16/the-whisky-diaries-kilbeggan.html)
 * [Tullamore Dew Special Reserve 12 Year Old](/whisky/2016/12/16/the-whisky-diaries-tullamore-dew.html)
