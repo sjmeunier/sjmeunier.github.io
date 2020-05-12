@@ -113,10 +113,10 @@ function search() {
 	})
 	html += '</ul></article>';
 	
-	$('#content article').remove();
-	$('#content').prepend(html);
-	$('#content div.extra-paginaton').remove();
-	$('#content nav.pagination').remove();
+	$('main.content article').remove();
+	$('main.content').prepend(html);
+	$('main.content div.extra-paginaton').remove();
+	$('main.content nav.pagination').remove();
 }
 
 function loadSearch(){
