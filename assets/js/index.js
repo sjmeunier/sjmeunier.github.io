@@ -111,6 +111,7 @@ function loadSearch(){
 				this.field('title', { boost: 10 });
 				this.field('categories', {boost: 5});
 				this.field('summary');
+				this.field('date');
 				
 				$this = this;
 				
@@ -130,13 +131,14 @@ function loadSearch(){
     $('#searchButton').on('click', function(){
         results = idx.search($('#searchField').val())
 
-        $('#content').html('<h1>Search Results (' + results.length + ')</h1>')
-        $('#content').append('<ul id="searchResults"></ul>')
-
-        // Loop through results
-        $.each(results, function(index, result){
+		var html = '<article class="post narrow">';
+		html += '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
+		html += '<ul id="searchResults">';
+		$.each(results, function(index, result){
             entry = window.searchData[result.ref]
-            $('#searchResults').append('<li><a href="' + entry.url + '">' + entry.title + '</li>')
+            html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</string> - ' + entry.date + '</li>';
         })
+		html += '</ul></article>';
+        $('#content').html(html);
     })
 }
