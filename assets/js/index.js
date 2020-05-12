@@ -99,9 +99,9 @@
 })(jQuery, 'smartresize');
 
 
+var idx = null;
 function loadSearch(){
 
-    idx = null;
     $.getJSON('/search.json')
 		.success(function(data){
 			window.searchData = data
@@ -111,10 +111,12 @@ function loadSearch(){
 				this.field('title', { boost: 10 });
 				this.field('categories', {boost: 5});
 				this.field('summary');
+				
+				$.each(data, function(index, entry){
+					this.add($.extend({"id": index}, entry));
+				});
 			});
-			$.each(data, function(index, entry){
-				idx.add($.extend({"id": index}, entry));
-			});
+
         })
 		.fail(function () {
             console.log(arguments);
