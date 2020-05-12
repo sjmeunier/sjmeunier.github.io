@@ -43,8 +43,12 @@
 	cursor: pointer;
 }
 
+ul {
+	list-style: square;
+}
+
 #searchResults {
-	list-style: none;
+	list-style: square;
 }
 
 #searchResults li {

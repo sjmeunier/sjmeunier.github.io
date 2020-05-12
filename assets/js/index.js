@@ -131,14 +131,14 @@ function loadSearch(){
     $('#searchButton').on('click', function(){
         results = idx.search($('#searchField').val())
 
-		var html = '<article class="post narrow">';
-		html += '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
+		var html = '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
 		html += '<ul id="searchResults">';
 		$.each(results, function(index, result){
             entry = window.searchData[result.ref]
-            html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</string> - ' + entry.date + '</li>';
+            html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</strong> - ' + entry.date + '</li>';
         })
-		html += '</ul></article>';
-        $('#content').html(html);
+		html += '</ul>';
+        $('article.post').html(html);
+		$('article.post').removeClass('narrow').addClass('narrow');
     })
 }
