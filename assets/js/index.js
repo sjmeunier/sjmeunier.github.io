@@ -33,7 +33,8 @@
         };
 
     $document.ready(function () {
-
+		loadSearch();
+		
         var $postContent = $(".post-content");
         $postContent.fitVids();
 
@@ -96,3 +97,34 @@
 
     };
 })(jQuery, 'smartresize');
+
+
+function loadSearch(){
+    // Create a new Index
+    idx = lunr(function(){
+        this.field('id')
+        this.field('title', { boost: 10 })
+        this.field('summary')
+    });
+
+    $.getJSON('/search.json', function(data){
+        window.searchData = data
+
+        $.each(data, function(index, entry){
+            idx.add($.extend({"id": index}, entry))
+        })
+    })
+
+    $('#searchButton').on('click', function(){
+        results = idx.search($('#searchField').val())
+
+        $('#content').html('<h1>Search Results (' + results.length + ')</h1>')
+        $('#content').append('<ul id="searchResults"></ul>')
+
+        // Loop through results
+        $.each(results, function(index, result){
+            entry = window.searchData[result.ref]
+            $('#searchResults').append('<li><a href="' + entry.url + '">' + entry.title + '</li>')
+        })
+    })
+}
