@@ -117,10 +117,10 @@ function loadSearch(){
         })
 		.fail(function () {
             console.log(arguments);
-        }
+        })
 		.error(function () {
             console.log(arguments);
-        }
+        })
     })
 
     $('#searchButton').on('click', function(){
