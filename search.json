@@ -6,7 +6,7 @@
         {
             "title": "{{ entry.title | xml_escape }}",
             "url": "{{ entry.url | xml_escape }}",
-            "summary": "{{ entry.content | strip_html | strip_newlines | jsonify | xml_escape }}",
+            "summary": "{{ entry.content | strip_html | strip_newlines | replace: "{", "" | replace "}", "" | replace "*", "" | xml_escape }}",
 			"date": "{{ entry.date | date_to_string }}",
 			"categories": "{% for category in entry.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}"
         }
