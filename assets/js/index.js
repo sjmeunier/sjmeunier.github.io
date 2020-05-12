@@ -108,12 +108,19 @@ function loadSearch(){
         this.field('summary');
     });
 
-    $.getJSON('/search.json', function(data){
-        window.searchData = data
+    $.getJSON('/search.json')
+		.success(function(data){
+			window.searchData = data
 
-        $.each(data, function(index, entry){
-            idx.add(entry)
+			$.each(data, function(index, entry){
+				idx.add(entry)
         })
+		.fail(function () {
+            console.log(arguments);
+        }
+		.error(function () {
+            console.log(arguments);
+        }
     })
 
     $('#searchButton').on('click', function(){
