@@ -114,7 +114,7 @@ function loadSearch(){
 
 			$.each(data, function(index, entry){
 				idx.add($.extend({"id": index}, entry));
-			}
+			});
         })
 		.fail(function () {
             console.log(arguments);
