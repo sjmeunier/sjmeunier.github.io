@@ -102,7 +102,7 @@
 function loadSearch(){
     // Create a new Index
     idx = lunr(function(){
-        this.ref('id');
+        this.field('id');
         this.field('title', { boost: 10 });
 		this.field('categories', {boost: 5});
         this.field('summary');
@@ -113,7 +113,7 @@ function loadSearch(){
 			window.searchData = data
 
 			$.each(data, function(index, entry){
-				idx.add(entry)
+				idx.add($.extend({"id": index}, entry)
         })
 		.fail(function () {
             console.log(arguments);
