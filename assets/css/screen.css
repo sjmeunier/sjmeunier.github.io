@@ -33,10 +33,13 @@
     vertical-align: top;
     background: transparent;
     color: #333;
+}
+
+.search #searchField: focus {
 	box-shadow: 0 0 3px 2px #999;
 	outline: none;
 }
-	
+
 .search #searchField::selection {
   background: #bbb;
 }
