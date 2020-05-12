@@ -104,17 +104,19 @@ var idx = null;
 function search() {
 	results = idx.search($('#searchField').val())
 
-	var html = '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
+	var html = '<article class="post narrow">';
+	html += '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
 	html += '<ul id="searchResults">';
 	$.each(results, function(index, result){
 		entry = window.searchData[result.ref]
 		html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</strong> - ' + entry.date + '</li>';
 	})
-	html += '</ul>';
+	html += '</ul></article>';
 	
-	$('article.post:not(first-child)').remove();
-	$('article.post').html(html);
-	$('article.post').removeClass('narrow').addClass('narrow');
+	$('#content article').remove();
+	$('#content').prepend(html);
+	$('#content div.extra-paginaton').remove();
+	$('#content nav.pagination').remove();
 }
 
 function loadSearch(){
