@@ -122,7 +122,6 @@ function loadSearch(){
 		.error(function () {
             console.log(arguments);
         })
-    })
 
     $('#searchButton').on('click', function(){
         results = idx.search($('#searchField').val())
