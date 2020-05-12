@@ -113,7 +113,8 @@ function loadSearch(){
 			window.searchData = data
 
 			$.each(data, function(index, entry){
-				idx.add($.extend({"id": index}, entry)
+				idx.add($.extend({"id": index}, entry));
+			}
         })
 		.fail(function () {
             console.log(arguments);
