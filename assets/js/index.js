@@ -112,8 +112,10 @@ function loadSearch(){
 				this.field('categories', {boost: 5});
 				this.field('summary');
 				
+				$this = this;
+				
 				$.each(data, function(index, entry){
-					this.add($.extend({"id": index}, entry));
+					$this.add($.extend({"id": index}, entry));
 				});
 			});
 
