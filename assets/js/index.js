@@ -100,18 +100,18 @@
 
 
 function loadSearch(){
-    // Create a new Index
-    idx = lunr(function(){
-        this.field('id');
-        this.field('title', { boost: 10 });
-		this.field('categories', {boost: 5});
-        this.field('summary');
-    });
 
+    idx = null;
     $.getJSON('/search.json')
 		.success(function(data){
 			window.searchData = data
 
+			idx = lunr(function(){
+				this.field('id');
+				this.field('title', { boost: 10 });
+				this.field('categories', {boost: 5});
+				this.field('summary');
+			});
 			$.each(data, function(index, entry){
 				idx.add($.extend({"id": index}, entry));
 			});
