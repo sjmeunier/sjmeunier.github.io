@@ -100,6 +100,23 @@
 
 
 var idx = null;
+
+function search() {
+	results = idx.search($('#searchField').val())
+
+	var html = '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
+	html += '<ul id="searchResults">';
+	$.each(results, function(index, result){
+		entry = window.searchData[result.ref]
+		html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</strong> - ' + entry.date + '</li>';
+	})
+	html += '</ul>';
+	
+	$('article.post:not(first-child)').remove();
+	$('article.post').html(html);
+	$('article.post').removeClass('narrow').addClass('narrow');
+}
+
 function loadSearch(){
 
     $.getJSON('/search.json')
@@ -128,17 +145,13 @@ function loadSearch(){
             console.log(arguments);
         })
 
+	$("#searchField").on('keyup', function (e) {
+		if (e.keyCode === 13) {
+			search();
+		}
+	});
+	
     $('#searchButton').on('click', function(){
-        results = idx.search($('#searchField').val())
-
-		var html = '<h2 class="post-title">Search Results (' + results.length + ')</h2>';
-		html += '<ul id="searchResults">';
-		$.each(results, function(index, result){
-            entry = window.searchData[result.ref]
-            html += '<li><a href="' + entry.url + '"><strong>' + entry.title + '</strong> - ' + entry.date + '</li>';
-        })
-		html += '</ul>';
-        $('article.post').html(html);
-		$('article.post').removeClass('narrow').addClass('narrow');
+        search();
     })
 }
