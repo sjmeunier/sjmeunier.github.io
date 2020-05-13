@@ -306,7 +306,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Crimson", serif;
+    font-family: "Averia Serif Libre", serif;
 }
 
 h1 {
@@ -792,7 +792,7 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Glass Antiqua', cursive;
     color: rgba(0,0,0,0.8);
 }
 
@@ -867,7 +867,7 @@ body:not(.post-template) .post-title.list {
 }
 
 .post-title {
-	font-family: "Crimson", serif;
+	font-family: "Averia Serif Libre", serif;
 }
 
 .post-title a {
