@@ -731,7 +731,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: bold;
     border-radius: 3px;
     transition: all ease 0.3s;
-	text-shadow: #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px;
+	text-shadow: #777 0px 0px 1px, #777 0px 0px 1px, #777 0px 0px 1px, #777 0px 0px 1px, #777 0px 0px 1px, #777 0px 0px 1px;
 }
 .back-button:before {
     position: relative;
@@ -771,7 +771,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 .main-nav.overlay a:hover {
-    color: #666;
+    color: #777;
     transition: all 0.1s ease;
 }
 
@@ -779,8 +779,8 @@ margin on the iframe, cause it breaks stuff. */
 .back-button:hover,
 .general-button:hover,
 .subscribe-button:hover {
-    border-color: #bfc8cd;
-    color: #666;
+    color: #777;
+	text-shadow: #999 0px 0px 1px, #999 0px 0px 1px, #999 0px 0px 1px, #999 0px 0px 1px, #999 0px 0px 1px, #999 0px 0px 1px;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
