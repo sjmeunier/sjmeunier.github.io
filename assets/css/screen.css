@@ -285,7 +285,7 @@ body {
     max-height: 100%;
     font-family: "Crimson", serif;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -586,7 +586,6 @@ margin on the iframe, cause it breaks stuff. */
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
     position: relative;
-    width: 80%;
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -627,13 +626,9 @@ margin on the iframe, cause it breaks stuff. */
     margin-bottom: 1em;
 }
 
-.main-header .inner {
-    width: 80%;
-}
-
 .main-nav {
     position: relative;
-    padding: 20px 40px;
+    padding: 20px 10px;
     margin: 0 0 30px 0;
 }
 
@@ -728,9 +723,9 @@ margin on the iframe, cause it breaks stuff. */
     padding: 0 8px 0 8px;
     border: transparent 1px solid;
     text-align: center;
-    font-size: 20px;
+    font-size: 2.3rem;
     text-transform: uppercase;
-    line-height: 25px;
+    line-height: 2rem;
 	color: #444;
     font-weight: bold;
     border-radius: 3px;
@@ -799,10 +794,10 @@ margin on the iframe, cause it breaks stuff. */
 
 .page-description {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1.5em;
-    font-weight: 400;
-    font-family: "Crimson", serif;
+    font-weight: bold;
+    font-family: "Averia Serif Libre", serif;
     letter-spacing: 0.01rem;
     color: rgba(0,0,0,0.5);
 }
@@ -1444,6 +1439,9 @@ body:not(.post-template) .post-title.list {
 /* ==========================================================================
    10. Media Queries - Smaller than 900px
    ========================================================================== */
+@media only screen and (max-width: 660px) {
+	.page-description: 1.5rem;
+}
 
 @media only screen and (max-width: 900px) {
 
@@ -1454,6 +1452,12 @@ body:not(.post-template) .post-title.list {
         margin-left: 0;
     }
 
+	.back-button,
+	.general-button,
+	.subscribe-button {
+		font-size: 1.8rem;
+	}
+	
     .main-header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -1462,7 +1466,7 @@ body:not(.post-template) .post-title.list {
     }
 
 	.main-header-content {
-		margin-top: 5.0em;
+		margin-top: 4.0em;
 		margin-bottom: 1em;
 	}
 	
