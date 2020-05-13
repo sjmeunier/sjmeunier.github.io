@@ -8,7 +8,7 @@ tags: [whisky]
 It has been a while since I posted some whisky updates. Over the last winter, I have enjoyed a few new whiskies, while enjoying relaxed evenings out with my wife. It will probably be a while before this happens again, due to the lockdowns with the Corona virus.
 
 ### Scapa Skiren Single Malt
-From the Orkney islands, this oak-aged whisky had a gentle alluring nose with hints of fresh citrus, follwoed by a fruity aftertaste with a bit of a herby note. It as silky smooth, and enjoyed it very much.
+From the Orkney islands, this oak-aged whisky had a gentle alluring nose with hints of fresh citrus, followed by a fruity aftertaste with a bit of a herby note. It as silky smooth, and enjoyed it very much.
 <!-- more -->
 
 ### Aberfeldy 12 Year Old Single Malt
