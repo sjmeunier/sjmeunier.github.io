@@ -587,7 +587,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -607,7 +607,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 	margin-bottom: 0;
     text-align: center;
     background-size: cover;
@@ -633,7 +633,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav {
     position: relative;
-    padding: 35px 40px;
+    padding: 20px 40px;
     margin: 0 0 30px 0;
 }
 
@@ -725,10 +725,10 @@ margin on the iframe, cause it breaks stuff. */
     box-sizing: border-box;
     display: inline-block;
     height: 28px;
-    padding: 0 15px 0 10px;
+    padding: 0 8px 0 8px;
     border: transparent 1px solid;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     text-transform: uppercase;
     line-height: 25px;
 	color: #444;
@@ -789,11 +789,12 @@ margin on the iframe, cause it breaks stuff. */
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 7rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: 'Italianno', cursive;
     color: rgba(0,0,0,0.8);
+	padding: 10px 0px 0px 0px;
 }
 
 .page-description {
@@ -1477,7 +1478,7 @@ body:not(.post-template) .post-title.list {
     }
 
     .page-title {
-        font-size: 4rem;
+        font-size: 5.5rem;
         letter-spacing: -1px;
     }
 
@@ -1565,16 +1566,16 @@ body:not(.post-template) .post-title.list {
 
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   11. Media Queries - Smaller than 510px
    ========================================================================== */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 510px) {
 
     .main-header {
     }
 
 	.main-header-content {
-		margin-top: 5.0em;
+		margin-top: 3.5em;
 		margin-bottom: 1em;
 	}
 
@@ -1687,7 +1688,7 @@ body:not(.post-template) .post-title.list {
     }
 
     .page-title {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     .post-excerpt p {
