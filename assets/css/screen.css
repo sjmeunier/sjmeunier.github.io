@@ -283,7 +283,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 2.2rem;
     line-height: 1.75em;
@@ -638,7 +638,7 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Crimson', serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
@@ -885,7 +885,7 @@ body:not(.post-template) .post-title.list {
 .post-meta {
     display: block;
     margin: 1.75rem 0 0 0;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
     color: #9EABB3;
@@ -1275,7 +1275,7 @@ body:not(.post-template) .post-title.list {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1319,7 +1319,7 @@ body:not(.post-template) .post-title.list {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
@@ -1406,7 +1406,7 @@ body:not(.post-template) .post-title.list {
     margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
-    font-family: "Crimson", serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     line-height: 1.75em;
     color: #BBC7CC;
