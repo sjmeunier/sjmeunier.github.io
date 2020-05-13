@@ -588,6 +588,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     max-width: 1300px;
     margin: 0 auto;
+	padding: 0px 5px;
 }
 
 /* Centres vertically yo. (IE8+) */
@@ -730,6 +731,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: bold;
     border-radius: 3px;
     transition: all ease 0.3s;
+	text-shadow: #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px, #555 0px 0px 1px;
 }
 .back-button:before {
     position: relative;
