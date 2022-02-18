@@ -27,7 +27,7 @@ The following features are available in the app:
 * _Chromatic Tuner_ - this tuner allows the adjustment of the reference pitch
 * _Spectrum Analyzer_ - gives a view of the audio input as a waveform on an oscilloscope, as well as a frequency range graph.
 
-![The Musician's Multitool](/assets/images/blog/musicians-multitool-screenshot.png.png){: .shadow-image .centered }
+![The Musician's Multitool](/assets/images/blog/musicians-multitool-screenshot.png){: .shadow-image .centered }
 
 Writing the app in Xamarin was interesting, and the app allowed me to touch a significant portion of the various features of app development, from figuring out how to play audio, to styling lists well, to drawing custom graphics, and creating custom controls.
 
