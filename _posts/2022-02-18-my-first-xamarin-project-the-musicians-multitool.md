@@ -21,7 +21,7 @@ The following features are available in the app:
 * _Modulations_ - provides a dictionary of common modulations between keys.
 * _Musical instrument ranges and tunings_ - shows the ranges of various musical instruments and various common tunings for an array of string instruments
 * _Terminology and notation dictionaries_ - are reference guide for reading and understanding music
-* Circle of Fifths - renders the relationships between major and minor keys.
+* _Circle of Fifths_ - renders the relationships between major and minor keys.
 * _Metronome_ - provides a fully customisable metronome.
 * _Virtual Piano_ - covers the full range of a piano.
 * _Chromatic Tuner_ - this tuner allows the adjustment of the reference pitch
