@@ -6,11 +6,12 @@ categories: Programming
 tags: [xamarin, android, programming, music]
 ---
 
+\[__UPDATE__: The Musician's Multitool has been rewritten from scratch. For more details see the [Pocket Music Theory](https://sjmeunier.github.io/programming/2022/07/11/why-i-ditched-xamarin-for-java.html). \]
 For a while now, I have been wanting to experiment a bit with using Xamarin as a platform for developing mobile applications. While .Net has been my primary dev environment for years, all the Android apps I have written so far have been in Java, and so was a bit apprehensive about changing that paradigm. 
 
 So, deciding to take that plunge, now, after a number of months of slogging away during my evenings, and on the weekends, I have a new app that I am ready to share.
 
-The Musician's Multitool is now available on the [Google Play store](https://play.google.com/store/apps/details?id=com.magnaursa.MusiciansMultitool).
+The Musician's Multitool is now available on the Google Play store. \[__UPDATE__: This app is now deprecated, and replaced with Pocket Music Theory on the [Google Play store](https://play.google.com/store/apps/details?id=com.magnaursa.pocketmusictheory). \]
 
 So, what is this app all about then? 
 
