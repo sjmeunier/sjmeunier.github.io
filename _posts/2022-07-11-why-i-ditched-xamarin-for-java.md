@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why I ditched Xamarin for Java"
-date:   2022-07-11 17:00:00
+date:   2022-07-11 00:00:00
 categories: Programming
 tags: [xamarin, android, programming, java, music]
 ---
