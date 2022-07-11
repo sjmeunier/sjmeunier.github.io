@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Why I ditched Xamarin for Java - Re-releasing The Musician's Multitool as Pocket Music Theory"
-date:   2022-07-11 21:00:00
+date:   2022-07-11 17:00:00
 categories: Programming
 tags: [xamarin, android, programming, java, music]
 ---
