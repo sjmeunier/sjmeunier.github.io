@@ -12,6 +12,8 @@ Anyay, while learning, I have tried to collect folk tunes online, but managing t
 
 Thus was born *The Folk Tune Library*. This Android app has a built-in library of over 2200 public domain folk tunes from around the world.
 
+<!--more-->
+
 The following features are available in the app:
 * Each tune can be rendered as sheet music or ABC notation.
 * Play back the tune, using one of several instruments
