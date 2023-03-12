@@ -23,7 +23,7 @@ The following features are available in the app:
 * Export list of songs to ABC tune book
 * Add tunes to the library by searching several ABC notation websites on the internet
 
-The Folk Tune Library is now available on the Google Play store. (https://play.google.com/store/apps/details?id=com.magnaursa.folktunelibrary). \]
+The Folk Tune Library is now available on the [Google Play store](https://play.google.com/store/apps/details?id=com.magnaursa.folktunelibrary).
 
 
 ![The Folk Tune Library](/assets/images/blog/folk-tune-library.png){: .shadow-image .centered }
